@@ -1,0 +1,17 @@
+[project]
+name = "aileo"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["fastapi>=0.120,<1", "pydantic>=2,<3", "uvicorn>=0.35,<1", "duckdb>=1.4,<2"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "httpx>=0.28,<1", "ruff>=0.13,<1"]
+ingest = ["pyarrow>=22,<26", "pandas>=2.3,<4", "polars>=1.35,<2"]
+research = ["jupyterlab>=4.4,<5", "jupytext>=1.17,<2", "papermill>=2.6,<3", "ipykernel>=6,<8", "scikit-learn>=1.7,<2", "matplotlib>=3.10,<4"]
+
+[tool.pytest.ini_options]
+pythonpath = ["services/api", "."]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"

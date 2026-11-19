@@ -1,0 +1,15 @@
+{
+  "source_id": "onet",
+  "version": "4372fc32602644bdd52fddda79631ef83a316c21a2b45ebb755ac6a0b31f850f",
+  "source_url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv/occupation_data.csv",
+  "retrieved_at": "2026-11-19T06:41:49.005291+00:00",
+  "source_checksum": "a09eae1d6609686e44e05b7290993a1c8b523d8ca224bc0eedc194c855c3ee02",
+  "silver_checksum": "4029d6e4e492b74549fe8c7243d0a6bef44afa5edc3b442acfdd54a3662e2332",
+  "gold_checksum": "b5dc84c019f2cccbf5c89605a3974cf251e9b044fea9201516f55cb807059ca7",
+  "transformation": "onet-occupations-v1",
+  "first_month": "2026-08",
+  "last_month": "2026-08",
+  "rows": 1016,
+  "missing": 0,
+  "artifact": "occupations.parquet"
+}

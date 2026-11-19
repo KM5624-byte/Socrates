@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ll144-enacted",
+    "instrument": "NYC Local Law 144",
+    "jurisdiction": "New York City",
+    "date": "2021-12-11",
+    "kind": "Law enacted",
+    "summary": "The New York City Council's legislative record lists December 11, 2021 as the enactment date.",
+    "source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4344524"
+  },
+  {
+    "id": "ll144-effective",
+    "instrument": "NYC Local Law 144",
+    "jurisdiction": "New York City",
+    "date": "2023-01-01",
+    "kind": "Law effective",
+    "summary": "Local Law 144 took effect. Its scope depends on how an automated employment decision tool is used to screen candidates for hiring or employees for promotion in New York City.",
+    "source_url": "https://www.nyc.gov/site/dca/businesses/faq-automated-employment-decision-tools.page"
+  },
+  {
+    "id": "ll144-rule",
+    "instrument": "NYC Local Law 144",
+    "jurisdiction": "New York City",
+    "date": "2023-07-05",
+    "kind": "Implementing rule effective",
+    "summary": "DCWP's implementing rule sets out bias-audit calculations, public summary disclosures, and notices for covered use.",
+    "source_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/2023/cityrecord-04-06-23.pdf"
+  },
+  {
+    "id": "ll144-enforcement",
+    "instrument": "NYC Local Law 144",
+    "jurisdiction": "New York City",
+    "date": "2023-07-05",
+    "kind": "Enforcement began",
+    "summary": "DCWP began enforcement. Covered employers and employment agencies must ensure a recent independent bias audit, publish the required summary, and provide required notices.",
+    "source_url": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page"
+  },
+  {
+    "id": "ll144-oversight",
+    "instrument": "NYC Local Law 144",
+    "jurisdiction": "New York City",
+    "date": "2025-12-02",
+    "kind": "Oversight report published",
+    "summary": "The New York State Comptroller issued an audit of DCWP enforcement covering July 2023 through June 2025. The audit describes potential noncompliance and recommends changes to the city's enforcement process.",
+    "source_url": "https://www.osc.ny.gov/state-agencies/audits/2025/12/02/enforcement-local-law-144-automated-employment-decision-tools"
+  },
+  {
+    "id": "eu-ai-act-force",
+    "instrument": "EU AI Act",
+    "jurisdiction": "European Union",
+    "date": "2024-08-01",
+    "kind": "Entered into force",
+    "summary": "The AI Act entered into force. Consult the consolidated text for provision-specific application dates and transitional rules.",
+    "source_url": "https://ai-act-service-desk.ec.europa.eu/en"
+  },
+  {
+    "id": "eu-ai-act-amended",
+    "instrument": "EU AI Act",
+    "jurisdiction": "European Union",
+    "date": "2026-07-27",
+    "kind": "Consolidated text date",
+    "summary": "EUR-Lex identifies this as the consolidation date for the text incorporating the Digital Omnibus amendment. Application dates depend on the provision and AI system category.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+  }
+]

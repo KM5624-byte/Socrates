@@ -1,0 +1,1315 @@
+{
+  "catalog": [
+    {
+      "source_id": "cps",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "canonical_url": "https://data.bls.gov/timeseries/LNS14000000",
+      "dataset_name": "Unemployment rate",
+      "dataset_version": "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+      "license": "Public domain (BLS-produced aggregate statistics)",
+      "access_method": "BLS Public Data API v2 GET",
+      "authentication_required": false,
+      "retrieval_status": "Validated",
+      "last_successful_sync": "2026-11-19T06:24:42.516740Z",
+      "last_checked_at": "2026-11-19T06:24:42.516740Z",
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": "2022-01 to 2024-12",
+      "original_schema": "BLS v2 Results.series[].data[]",
+      "normalization_schema": "monthly-observation-v1",
+      "attribution": "U.S. Bureau of Labor Statistics",
+      "known_limitations": "Household survey estimate. BLS can revise seasonal adjustments.",
+      "source_checksum": "811390681528ce1cd8fae637ea55c5a56b5ec19690dff713cf6d50e0583a8cd3",
+      "lineage_reference": "/api/v1/datasets/cps/releases/a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+      "series_id": "LNS14000000",
+      "unit": "percent",
+      "adjustment": "Seasonally adjusted",
+      "program": "CPS",
+      "methodology_url": "https://www.bls.gov/cps/",
+      "license_url": "https://www.bls.gov/bls/linksite.htm"
+    },
+    {
+      "source_id": "laus",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "canonical_url": "https://data.bls.gov/timeseries/LAUCN360610000000003",
+      "dataset_name": "Unemployment rate",
+      "dataset_version": "8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+      "license": "Public domain (BLS-produced aggregate statistics)",
+      "access_method": "BLS Public Data API v2 GET",
+      "authentication_required": false,
+      "retrieval_status": "Validated",
+      "last_successful_sync": "2026-11-19T06:24:42.776127Z",
+      "last_checked_at": "2026-11-19T06:24:42.776127Z",
+      "next_scheduled_sync": null,
+      "geographic_coverage": "New York County, NY",
+      "temporal_coverage": "2022-01 to 2024-12",
+      "original_schema": "BLS v2 Results.series[].data[]",
+      "normalization_schema": "monthly-observation-v1",
+      "attribution": "U.S. Bureau of Labor Statistics",
+      "known_limitations": "Residence-based county estimate. New York County is Manhattan, one of five NYC boroughs. Seasonal variation and revisions affect comparisons.",
+      "source_checksum": "c835150b05f5ba9fce349058af4bd1de25d205e12734d06a5598bf97dfa06c2d",
+      "lineage_reference": "/api/v1/datasets/laus/releases/8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+      "series_id": "LAUCN360610000000003",
+      "unit": "percent",
+      "adjustment": "Not seasonally adjusted",
+      "program": "LAUS",
+      "methodology_url": "https://www.bls.gov/lau/",
+      "license_url": "https://www.bls.gov/bls/linksite.htm"
+    },
+    {
+      "source_id": "jolts",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "canonical_url": "https://data.bls.gov/timeseries/JTS000000000000000JOL",
+      "dataset_name": "Job openings",
+      "dataset_version": "b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+      "license": "Public domain (BLS-produced aggregate statistics)",
+      "access_method": "BLS Public Data API v2 GET",
+      "authentication_required": false,
+      "retrieval_status": "Validated",
+      "last_successful_sync": "2026-11-19T06:24:43.018275Z",
+      "last_checked_at": "2026-11-19T06:24:43.018275Z",
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": "2022-01 to 2024-12",
+      "original_schema": "BLS v2 Results.series[].data[]",
+      "normalization_schema": "monthly-observation-v1",
+      "attribution": "U.S. Bureau of Labor Statistics",
+      "known_limitations": "Establishment survey estimate of openings. Openings and hires are distinct measures.",
+      "source_checksum": "d7f133d6b061c7c353d5fac57ade998bb3aa60296dd7196448c95f97fb2a9e6a",
+      "lineage_reference": "/api/v1/datasets/jolts/releases/b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+      "series_id": "JTS000000000000000JOL",
+      "unit": "thousands",
+      "adjustment": "Seasonally adjusted",
+      "program": "JOLTS",
+      "methodology_url": "https://www.bls.gov/jlt/",
+      "license_url": "https://www.bls.gov/bls/linksite.htm"
+    },
+    {
+      "source_id": "oews",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "canonical_url": "https://www.bls.gov/oes/tables.htm",
+      "dataset_name": "Occupational Employment and Wage Statistics",
+      "dataset_version": null,
+      "license": "BLS-produced content generally public domain",
+      "access_method": "Official release files",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "U.S. Bureau of Labor Statistics",
+      "known_limitations": "Occupation and geographic release definitions vary.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "qcew",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "canonical_url": "https://www.bls.gov/cew/downloadable-data-files.htm",
+      "dataset_name": "Quarterly Census of Employment and Wages",
+      "dataset_version": null,
+      "license": "BLS-produced content generally public domain",
+      "access_method": "Official release files",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "U.S. Bureau of Labor Statistics",
+      "known_limitations": "Preserve disclosure status and industry vintage.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "projections",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "canonical_url": "https://www.bls.gov/emp/",
+      "dataset_name": "Employment Projections",
+      "dataset_version": null,
+      "license": "BLS-produced content generally public domain",
+      "access_method": "Official release files",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "U.S. Bureau of Labor Statistics",
+      "known_limitations": "Projected quantities require a separate inference class.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "btos",
+      "publisher": "U.S. Census Bureau",
+      "canonical_url": "https://www.census.gov/hfp/btos/data_downloads",
+      "dataset_name": "Business Trends and Outlook Survey",
+      "dataset_version": null,
+      "license": "Verify product-specific notices",
+      "access_method": "Official downloads or Census API",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "U.S. Census Bureau",
+      "known_limitations": "Question wording and sample cycles can change. Review suppression.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "qwi",
+      "publisher": "U.S. Census Bureau",
+      "canonical_url": "https://lehd.ces.census.gov/data/",
+      "dataset_name": "Quarterly Workforce Indicators",
+      "dataset_version": null,
+      "license": "Verify product-specific notices",
+      "access_method": "Official downloads or Census API",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "U.S. Census Bureau",
+      "known_limitations": "Preserve status flags and release vintages.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "bds",
+      "publisher": "U.S. Census Bureau",
+      "canonical_url": "https://www.census.gov/programs-surveys/bds.html",
+      "dataset_name": "Business Dynamics Statistics",
+      "dataset_version": null,
+      "license": "Verify product-specific notices",
+      "access_method": "Official downloads or Census API",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "U.S. Census Bureau",
+      "known_limitations": "Annual aggregates with suppression.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "cbp",
+      "publisher": "U.S. Census Bureau",
+      "canonical_url": "https://www.census.gov/programs-surveys/cbp.html",
+      "dataset_name": "County Business Patterns",
+      "dataset_version": null,
+      "license": "Verify product-specific notices",
+      "access_method": "Official downloads or Census API",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "U.S. Census Bureau",
+      "known_limitations": "Coverage excludes some industries and employment types.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "acs",
+      "publisher": "U.S. Census Bureau",
+      "canonical_url": "https://www.census.gov/programs-surveys/acs/data.html",
+      "dataset_name": "American Community Survey",
+      "dataset_version": null,
+      "license": "Verify product-specific notices",
+      "access_method": "Official downloads or Census API",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "U.S. Census Bureau",
+      "known_limitations": "Preserve margins of error and estimate period.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "onet",
+      "publisher": "National Center for O*NET Development",
+      "canonical_url": "https://www.onetcenter.org/database.html",
+      "dataset_name": "O*NET 31.0 occupation definitions",
+      "dataset_version": "4372fc32602644bdd52fddda79631ef83a316c21a2b45ebb755ac6a0b31f850f",
+      "license": "CC BY 4.0 with exceptions",
+      "access_method": "Official release files",
+      "authentication_required": false,
+      "retrieval_status": "Validated",
+      "last_successful_sync": "2026-11-19T06:41:49.005291Z",
+      "last_checked_at": "2026-11-19T06:41:49.005291Z",
+      "next_scheduled_sync": null,
+      "geographic_coverage": "United States",
+      "temporal_coverage": "2026-08 to 2026-08",
+      "original_schema": "Occupation Data CSV: O*NET-SOC Code, Title, Description",
+      "normalization_schema": "onet-occupation-v1",
+      "attribution": "O*NET® 31.0 Database, U.S. Department of Labor, Employment and Training Administration. AILEO renamed columns and converted the source CSV to Parquet.",
+      "known_limitations": "The archive contains additional files. This release covers occupation definitions only. Occupational descriptors do not measure AI use or displacement.",
+      "source_checksum": "a09eae1d6609686e44e05b7290993a1c8b523d8ca224bc0eedc194c855c3ee02",
+      "lineage_reference": "/api/v1/datasets/onet/releases/4372fc32602644bdd52fddda79631ef83a316c21a2b45ebb755ac6a0b31f850f",
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": "https://www.onetcenter.org/license_db.html"
+    },
+    {
+      "source_id": "nyc-dcwp",
+      "publisher": "NYC Department of Consumer and Worker Protection",
+      "canonical_url": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
+      "dataset_name": "Local Law 144 implementation guidance",
+      "dataset_version": null,
+      "license": "Link and paraphrase",
+      "access_method": "Official legal and guidance references",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "New York City",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "NYC Department of Consumer and Worker Protection",
+      "known_limitations": "Scope depends on tool use and the covered decision.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "ny-osc",
+      "publisher": "New York State Office of the State Comptroller",
+      "canonical_url": "https://www.osc.ny.gov/state-agencies/audits/2025/12/02/enforcement-local-law-144-automated-employment-decision-tools",
+      "dataset_name": "Audit of Local Law 144 enforcement",
+      "dataset_version": null,
+      "license": "Link and paraphrase",
+      "access_method": "Official report",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "New York City",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "New York State Office of the State Comptroller",
+      "known_limitations": "Potential noncompliance findings are distinct from adjudicated violations.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "aclu-tracker",
+      "publisher": "ACLU and contributing researchers",
+      "canonical_url": "https://github.com/aclu-national/tracking-ll144-bias-audits",
+      "dataset_name": "tracking-ll144-bias-audits",
+      "dataset_version": null,
+      "license": "CC BY-NC 4.0 tracker notice. Confirm scope for each file.",
+      "access_method": "GitHub repository",
+      "authentication_required": null,
+      "retrieval_status": "License review required",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "New York City",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "ACLU and contributing researchers",
+      "known_limitations": "Historical discovery sample. Permission review for redistribution and underlying reports.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "aclu-facct",
+      "publisher": "ACLU and contributing researchers",
+      "canonical_url": "https://github.com/aclu-national/auditing-the-audits-facct-2025",
+      "dataset_name": "auditing-the-audits-facct-2025",
+      "dataset_version": null,
+      "license": "CC BY-NC 4.0 tracker notice. Confirm scope for each file.",
+      "access_method": "GitHub repository",
+      "authentication_required": null,
+      "retrieval_status": "License review required",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "New York City",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "ACLU and contributing researchers",
+      "known_limitations": "Historical discovery sample. Permission review for redistribution and underlying reports.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "oecd",
+      "publisher": "OECD",
+      "canonical_url": "https://oecd.ai",
+      "dataset_name": "AI Policy Observatory",
+      "dataset_version": null,
+      "license": "Verify dataset-specific terms",
+      "access_method": "Publisher website",
+      "authentication_required": null,
+      "retrieval_status": "License review required",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "International",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "OECD",
+      "known_limitations": "Bulk access and reuse permissions require verification.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "eu-ai-act",
+      "publisher": "European Union",
+      "canonical_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "dataset_name": "AI Act consolidated July 2026 text",
+      "dataset_version": null,
+      "license": "Link to EUR-Lex",
+      "access_method": "Official consolidated legal text",
+      "authentication_required": null,
+      "retrieval_status": "Available",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "European Union",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "European Union",
+      "known_limitations": "Applicability varies by provision and system category.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "ai-index",
+      "publisher": "Stanford HAI",
+      "canonical_url": "https://hai.stanford.edu/ai-index",
+      "dataset_name": "AI Index",
+      "dataset_version": null,
+      "license": "Verify licenses for individual series",
+      "access_method": "Publisher downloads",
+      "authentication_required": null,
+      "retrieval_status": "License review required",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "International",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "Stanford HAI",
+      "known_limitations": "Underlying datasets may have third-party rights.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    },
+    {
+      "source_id": "exposure",
+      "publisher": "Academic researchers",
+      "canonical_url": "https://www.nber.org/papers/w32834",
+      "dataset_name": "Occupational AI exposure replication datasets",
+      "dataset_version": null,
+      "license": "Verify chosen replication archive",
+      "access_method": "Research publisher",
+      "authentication_required": null,
+      "retrieval_status": "License review required",
+      "last_successful_sync": null,
+      "last_checked_at": null,
+      "next_scheduled_sync": null,
+      "geographic_coverage": "Varies",
+      "temporal_coverage": null,
+      "original_schema": null,
+      "normalization_schema": null,
+      "attribution": "Academic researchers",
+      "known_limitations": "Exposure metrics do not measure realized displacement.",
+      "source_checksum": null,
+      "lineage_reference": null,
+      "series_id": null,
+      "unit": null,
+      "adjustment": null,
+      "program": null,
+      "methodology_url": null,
+      "license_url": null
+    }
+  ],
+  "events": [
+    {
+      "id": "ll144-enacted",
+      "instrument": "NYC Local Law 144",
+      "jurisdiction": "New York City",
+      "date": "2021-12-11",
+      "kind": "Law enacted",
+      "summary": "The New York City Council's legislative record lists December 11, 2021 as the enactment date.",
+      "source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4344524"
+    },
+    {
+      "id": "ll144-effective",
+      "instrument": "NYC Local Law 144",
+      "jurisdiction": "New York City",
+      "date": "2023-01-01",
+      "kind": "Law effective",
+      "summary": "Local Law 144 took effect. Its scope depends on how an automated employment decision tool is used to screen candidates for hiring or employees for promotion in New York City.",
+      "source_url": "https://www.nyc.gov/site/dca/businesses/faq-automated-employment-decision-tools.page"
+    },
+    {
+      "id": "ll144-rule",
+      "instrument": "NYC Local Law 144",
+      "jurisdiction": "New York City",
+      "date": "2023-07-05",
+      "kind": "Implementing rule effective",
+      "summary": "DCWP's implementing rule sets out bias-audit calculations, public summary disclosures, and notices for covered use.",
+      "source_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/2023/cityrecord-04-06-23.pdf"
+    },
+    {
+      "id": "ll144-enforcement",
+      "instrument": "NYC Local Law 144",
+      "jurisdiction": "New York City",
+      "date": "2023-07-05",
+      "kind": "Enforcement began",
+      "summary": "DCWP began enforcement. Covered employers and employment agencies must ensure a recent independent bias audit, publish the required summary, and provide required notices.",
+      "source_url": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page"
+    },
+    {
+      "id": "ll144-oversight",
+      "instrument": "NYC Local Law 144",
+      "jurisdiction": "New York City",
+      "date": "2025-12-02",
+      "kind": "Oversight report published",
+      "summary": "The New York State Comptroller issued an audit of DCWP enforcement covering July 2023 through June 2025. The audit describes potential noncompliance and recommends changes to the city's enforcement process.",
+      "source_url": "https://www.osc.ny.gov/state-agencies/audits/2025/12/02/enforcement-local-law-144-automated-employment-decision-tools"
+    },
+    {
+      "id": "eu-ai-act-force",
+      "instrument": "EU AI Act",
+      "jurisdiction": "European Union",
+      "date": "2024-08-01",
+      "kind": "Entered into force",
+      "summary": "The AI Act entered into force. Consult the consolidated text for provision-specific application dates and transitional rules.",
+      "source_url": "https://ai-act-service-desk.ec.europa.eu/en"
+    },
+    {
+      "id": "eu-ai-act-amended",
+      "instrument": "EU AI Act",
+      "jurisdiction": "European Union",
+      "date": "2026-07-27",
+      "kind": "Consolidated text date",
+      "summary": "EUR-Lex identifies this as the consolidation date for the text incorporating the Digital Omnibus amendment. Application dates depend on the provision and AI system category.",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+    }
+  ],
+  "series": {
+    "cps": {
+      "inference": "published_estimate",
+      "source": {
+        "source_id": "cps",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "canonical_url": "https://data.bls.gov/timeseries/LNS14000000",
+        "dataset_name": "Unemployment rate",
+        "dataset_version": "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+        "license": "Public domain (BLS-produced aggregate statistics)",
+        "access_method": "BLS Public Data API v2 GET",
+        "authentication_required": false,
+        "retrieval_status": "Validated",
+        "last_successful_sync": "2026-11-19T06:24:42.516740Z",
+        "last_checked_at": "2026-11-19T06:24:42.516740Z",
+        "next_scheduled_sync": null,
+        "geographic_coverage": "United States",
+        "temporal_coverage": "2022-01 to 2024-12",
+        "original_schema": "BLS v2 Results.series[].data[]",
+        "normalization_schema": "monthly-observation-v1",
+        "attribution": "U.S. Bureau of Labor Statistics",
+        "known_limitations": "Household survey estimate. BLS can revise seasonal adjustments.",
+        "source_checksum": "811390681528ce1cd8fae637ea55c5a56b5ec19690dff713cf6d50e0583a8cd3",
+        "lineage_reference": "/api/v1/datasets/cps/releases/a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+        "series_id": "LNS14000000",
+        "unit": "percent",
+        "adjustment": "Seasonally adjusted",
+        "program": "CPS",
+        "methodology_url": "https://www.bls.gov/cps/",
+        "license_url": "https://www.bls.gov/bls/linksite.htm"
+      },
+      "release": {
+        "source_id": "cps",
+        "version": "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000?startyear=2022&endyear=2024",
+        "retrieved_at": "2026-11-19T06:24:42.516740Z",
+        "source_checksum": "811390681528ce1cd8fae637ea55c5a56b5ec19690dff713cf6d50e0583a8cd3",
+        "silver_checksum": "514454ad668128bf4467d41a30736a2ddab0db28deb14d2b35c12e740a87356f",
+        "gold_checksum": "2ef614826283cc33d9a8f02bf5b74eb94f63db51050f7a8a0a454c1d34b2cc4e",
+        "transformation": "bls-monthly-v1",
+        "first_month": "2022-01",
+        "last_month": "2024-12",
+        "rows": 36,
+        "missing": 0,
+        "artifact": "series.parquet"
+      },
+      "observations": [
+        {
+          "month": "2022-01",
+          "value": 4.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-02",
+          "value": 3.9,
+          "footnotes": []
+        },
+        {
+          "month": "2022-03",
+          "value": 3.7,
+          "footnotes": []
+        },
+        {
+          "month": "2022-04",
+          "value": 3.7,
+          "footnotes": []
+        },
+        {
+          "month": "2022-05",
+          "value": 3.6,
+          "footnotes": []
+        },
+        {
+          "month": "2022-06",
+          "value": 3.6,
+          "footnotes": []
+        },
+        {
+          "month": "2022-07",
+          "value": 3.5,
+          "footnotes": []
+        },
+        {
+          "month": "2022-08",
+          "value": 3.6,
+          "footnotes": []
+        },
+        {
+          "month": "2022-09",
+          "value": 3.5,
+          "footnotes": []
+        },
+        {
+          "month": "2022-10",
+          "value": 3.6,
+          "footnotes": []
+        },
+        {
+          "month": "2022-11",
+          "value": 3.6,
+          "footnotes": []
+        },
+        {
+          "month": "2022-12",
+          "value": 3.5,
+          "footnotes": []
+        },
+        {
+          "month": "2023-01",
+          "value": 3.5,
+          "footnotes": []
+        },
+        {
+          "month": "2023-02",
+          "value": 3.6,
+          "footnotes": []
+        },
+        {
+          "month": "2023-03",
+          "value": 3.5,
+          "footnotes": []
+        },
+        {
+          "month": "2023-04",
+          "value": 3.4,
+          "footnotes": []
+        },
+        {
+          "month": "2023-05",
+          "value": 3.6,
+          "footnotes": []
+        },
+        {
+          "month": "2023-06",
+          "value": 3.6,
+          "footnotes": []
+        },
+        {
+          "month": "2023-07",
+          "value": 3.5,
+          "footnotes": []
+        },
+        {
+          "month": "2023-08",
+          "value": 3.7,
+          "footnotes": []
+        },
+        {
+          "month": "2023-09",
+          "value": 3.7,
+          "footnotes": []
+        },
+        {
+          "month": "2023-10",
+          "value": 3.9,
+          "footnotes": []
+        },
+        {
+          "month": "2023-11",
+          "value": 3.7,
+          "footnotes": []
+        },
+        {
+          "month": "2023-12",
+          "value": 3.8,
+          "footnotes": []
+        },
+        {
+          "month": "2024-01",
+          "value": 3.7,
+          "footnotes": []
+        },
+        {
+          "month": "2024-02",
+          "value": 3.9,
+          "footnotes": []
+        },
+        {
+          "month": "2024-03",
+          "value": 3.9,
+          "footnotes": []
+        },
+        {
+          "month": "2024-04",
+          "value": 3.9,
+          "footnotes": []
+        },
+        {
+          "month": "2024-05",
+          "value": 3.9,
+          "footnotes": []
+        },
+        {
+          "month": "2024-06",
+          "value": 4.1,
+          "footnotes": []
+        },
+        {
+          "month": "2024-07",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2024-08",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2024-09",
+          "value": 4.1,
+          "footnotes": []
+        },
+        {
+          "month": "2024-10",
+          "value": 4.1,
+          "footnotes": []
+        },
+        {
+          "month": "2024-11",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2024-12",
+          "value": 4.1,
+          "footnotes": []
+        }
+      ]
+    },
+    "laus": {
+      "inference": "published_estimate",
+      "source": {
+        "source_id": "laus",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "canonical_url": "https://data.bls.gov/timeseries/LAUCN360610000000003",
+        "dataset_name": "Unemployment rate",
+        "dataset_version": "8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+        "license": "Public domain (BLS-produced aggregate statistics)",
+        "access_method": "BLS Public Data API v2 GET",
+        "authentication_required": false,
+        "retrieval_status": "Validated",
+        "last_successful_sync": "2026-11-19T06:24:42.776127Z",
+        "last_checked_at": "2026-11-19T06:24:42.776127Z",
+        "next_scheduled_sync": null,
+        "geographic_coverage": "New York County, NY",
+        "temporal_coverage": "2022-01 to 2024-12",
+        "original_schema": "BLS v2 Results.series[].data[]",
+        "normalization_schema": "monthly-observation-v1",
+        "attribution": "U.S. Bureau of Labor Statistics",
+        "known_limitations": "Residence-based county estimate. New York County is Manhattan, one of five NYC boroughs. Seasonal variation and revisions affect comparisons.",
+        "source_checksum": "c835150b05f5ba9fce349058af4bd1de25d205e12734d06a5598bf97dfa06c2d",
+        "lineage_reference": "/api/v1/datasets/laus/releases/8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+        "series_id": "LAUCN360610000000003",
+        "unit": "percent",
+        "adjustment": "Not seasonally adjusted",
+        "program": "LAUS",
+        "methodology_url": "https://www.bls.gov/lau/",
+        "license_url": "https://www.bls.gov/bls/linksite.htm"
+      },
+      "release": {
+        "source_id": "laus",
+        "version": "8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUCN360610000000003?startyear=2022&endyear=2024",
+        "retrieved_at": "2026-11-19T06:24:42.776127Z",
+        "source_checksum": "c835150b05f5ba9fce349058af4bd1de25d205e12734d06a5598bf97dfa06c2d",
+        "silver_checksum": "2b2b5287d8f3eedad24f4f6db8d30bf3067e11f4fe67375ca3d942f77aaa99fb",
+        "gold_checksum": "e5be0fbef0fa2dac109eb2a8a0cb2c00166a34761f8b6eb0571b5359999faa48",
+        "transformation": "bls-monthly-v1",
+        "first_month": "2022-01",
+        "last_month": "2024-12",
+        "rows": 36,
+        "missing": 0,
+        "artifact": "series.parquet"
+      },
+      "observations": [
+        {
+          "month": "2022-01",
+          "value": 6.3,
+          "footnotes": []
+        },
+        {
+          "month": "2022-02",
+          "value": 5.7,
+          "footnotes": []
+        },
+        {
+          "month": "2022-03",
+          "value": 5.1,
+          "footnotes": []
+        },
+        {
+          "month": "2022-04",
+          "value": 4.7,
+          "footnotes": []
+        },
+        {
+          "month": "2022-05",
+          "value": 4.5,
+          "footnotes": []
+        },
+        {
+          "month": "2022-06",
+          "value": 4.7,
+          "footnotes": []
+        },
+        {
+          "month": "2022-07",
+          "value": 4.7,
+          "footnotes": []
+        },
+        {
+          "month": "2022-08",
+          "value": 4.4,
+          "footnotes": []
+        },
+        {
+          "month": "2022-09",
+          "value": 3.9,
+          "footnotes": []
+        },
+        {
+          "month": "2022-10",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2022-11",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2022-12",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2023-01",
+          "value": 4.6,
+          "footnotes": []
+        },
+        {
+          "month": "2023-02",
+          "value": 4.7,
+          "footnotes": []
+        },
+        {
+          "month": "2023-03",
+          "value": 4.4,
+          "footnotes": []
+        },
+        {
+          "month": "2023-04",
+          "value": 4.1,
+          "footnotes": []
+        },
+        {
+          "month": "2023-05",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2023-06",
+          "value": 4.6,
+          "footnotes": []
+        },
+        {
+          "month": "2023-07",
+          "value": 4.7,
+          "footnotes": []
+        },
+        {
+          "month": "2023-08",
+          "value": 4.9,
+          "footnotes": []
+        },
+        {
+          "month": "2023-09",
+          "value": 4.5,
+          "footnotes": []
+        },
+        {
+          "month": "2023-10",
+          "value": 4.7,
+          "footnotes": []
+        },
+        {
+          "month": "2023-11",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2023-12",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2024-01",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2024-02",
+          "value": 4.5,
+          "footnotes": []
+        },
+        {
+          "month": "2024-03",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2024-04",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2024-05",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2024-06",
+          "value": 4.8,
+          "footnotes": []
+        },
+        {
+          "month": "2024-07",
+          "value": 5.4,
+          "footnotes": []
+        },
+        {
+          "month": "2024-08",
+          "value": 5.2,
+          "footnotes": []
+        },
+        {
+          "month": "2024-09",
+          "value": 4.5,
+          "footnotes": []
+        },
+        {
+          "month": "2024-10",
+          "value": 4.6,
+          "footnotes": []
+        },
+        {
+          "month": "2024-11",
+          "value": 4.5,
+          "footnotes": []
+        },
+        {
+          "month": "2024-12",
+          "value": 4.2,
+          "footnotes": []
+        }
+      ]
+    },
+    "jolts": {
+      "inference": "published_estimate",
+      "source": {
+        "source_id": "jolts",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "canonical_url": "https://data.bls.gov/timeseries/JTS000000000000000JOL",
+        "dataset_name": "Job openings",
+        "dataset_version": "b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+        "license": "Public domain (BLS-produced aggregate statistics)",
+        "access_method": "BLS Public Data API v2 GET",
+        "authentication_required": false,
+        "retrieval_status": "Validated",
+        "last_successful_sync": "2026-11-19T06:24:43.018275Z",
+        "last_checked_at": "2026-11-19T06:24:43.018275Z",
+        "next_scheduled_sync": null,
+        "geographic_coverage": "United States",
+        "temporal_coverage": "2022-01 to 2024-12",
+        "original_schema": "BLS v2 Results.series[].data[]",
+        "normalization_schema": "monthly-observation-v1",
+        "attribution": "U.S. Bureau of Labor Statistics",
+        "known_limitations": "Establishment survey estimate of openings. Openings and hires are distinct measures.",
+        "source_checksum": "d7f133d6b061c7c353d5fac57ade998bb3aa60296dd7196448c95f97fb2a9e6a",
+        "lineage_reference": "/api/v1/datasets/jolts/releases/b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+        "series_id": "JTS000000000000000JOL",
+        "unit": "thousands",
+        "adjustment": "Seasonally adjusted",
+        "program": "JOLTS",
+        "methodology_url": "https://www.bls.gov/jlt/",
+        "license_url": "https://www.bls.gov/bls/linksite.htm"
+      },
+      "release": {
+        "source_id": "jolts",
+        "version": "b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/JTS000000000000000JOL?startyear=2022&endyear=2024",
+        "retrieved_at": "2026-11-19T06:24:43.018275Z",
+        "source_checksum": "d7f133d6b061c7c353d5fac57ade998bb3aa60296dd7196448c95f97fb2a9e6a",
+        "silver_checksum": "681b7638aa915057c776a0caf2d59f0b6d8571bb5ac5960e0e3486ee570c7d0e",
+        "gold_checksum": "f1e7704a27c72eca9c427b4f470237548ad0a6f20e7419c7c6e5a5cd11c45bd3",
+        "transformation": "bls-monthly-v1",
+        "first_month": "2022-01",
+        "last_month": "2024-12",
+        "rows": 36,
+        "missing": 0,
+        "artifact": "series.parquet"
+      },
+      "observations": [
+        {
+          "month": "2022-01",
+          "value": 11210.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-02",
+          "value": 11698.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-03",
+          "value": 12301.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-04",
+          "value": 11861.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-05",
+          "value": 11535.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-06",
+          "value": 11283.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-07",
+          "value": 11576.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-08",
+          "value": 10092.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-09",
+          "value": 10800.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-10",
+          "value": 10447.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-11",
+          "value": 10632.0,
+          "footnotes": []
+        },
+        {
+          "month": "2022-12",
+          "value": 10902.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-01",
+          "value": 10318.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-02",
+          "value": 9857.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-03",
+          "value": 9655.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-04",
+          "value": 9966.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-05",
+          "value": 9368.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-06",
+          "value": 9180.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-07",
+          "value": 8657.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-08",
+          "value": 9254.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-09",
+          "value": 9259.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-10",
+          "value": 8580.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-11",
+          "value": 8602.0,
+          "footnotes": []
+        },
+        {
+          "month": "2023-12",
+          "value": 8520.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-01",
+          "value": 8378.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-02",
+          "value": 8440.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-03",
+          "value": 8206.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-04",
+          "value": 7529.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-05",
+          "value": 7782.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-06",
+          "value": 7416.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-07",
+          "value": 7426.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-08",
+          "value": 7520.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-09",
+          "value": 6943.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-10",
+          "value": 7379.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-11",
+          "value": 7566.0,
+          "footnotes": []
+        },
+        {
+          "month": "2024-12",
+          "value": 7295.0,
+          "footnotes": []
+        }
+      ]
+    }
+  }
+}

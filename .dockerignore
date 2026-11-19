@@ -1,0 +1,13 @@
+.git
+**/node_modules
+**/.next
+**/.turbo
+.venv
+.env*
+.lake
+research/output
+playwright-report
+test-results
+**/.terraform
+**/*.tfstate*
+**/*.tfplan

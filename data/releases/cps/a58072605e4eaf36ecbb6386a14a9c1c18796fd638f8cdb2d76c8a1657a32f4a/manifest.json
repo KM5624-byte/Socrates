@@ -1,0 +1,14 @@
+{
+  "source_id": "cps",
+  "version": "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+  "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000?startyear=2022&endyear=2024",
+  "retrieved_at": "2026-11-19T06:24:42.516740+00:00",
+  "source_checksum": "811390681528ce1cd8fae637ea55c5a56b5ec19690dff713cf6d50e0583a8cd3",
+  "silver_checksum": "514454ad668128bf4467d41a30736a2ddab0db28deb14d2b35c12e740a87356f",
+  "gold_checksum": "2ef614826283cc33d9a8f02bf5b74eb94f63db51050f7a8a0a454c1d34b2cc4e",
+  "transformation": "bls-monthly-v1",
+  "first_month": "2022-01",
+  "last_month": "2024-12",
+  "rows": 36,
+  "missing": 0
+}
