@@ -14,9 +14,12 @@ export function snapshotResponse(url: URL) {
   }
   const match = /^\/api\/v1\/employment\/(laus|cps|jolts)(\/csv)?$/.exec(url.pathname);
   if (!match) return new Response(null, { status: 404 });
-  const data = snapshot.series[match[1] as keyof typeof snapshot.series];
+  const id = match[1] as keyof typeof snapshot.series;
+  const latest = snapshot.series[id];
   const version = url.searchParams.get("version");
-  if (version && version !== data.release.version) return new Response(null, { status: 404 });
+  const history: Record<string, typeof latest> = snapshot.history[id];
+  const data = version && version !== latest.release.version ? history[version] : latest;
+  if (!data) return new Response(null, { status: 404 });
   const start = url.searchParams.get("start") ?? data.release.first_month;
   const end = url.searchParams.get("end") ?? data.release.last_month;
   if (start > end) return new Response(null, { status: 422 });

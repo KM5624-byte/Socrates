@@ -44,7 +44,11 @@ def digest(data: bytes) -> str:
 
 def normalize(raw: bytes, series_id: str, start: int, end: int, unit: str):
     payload = json.loads(raw)
-    if payload["status"] != "REQUEST_SUCCEEDED" or payload.get("message"):
+    warnings = payload.get("message") or []
+    catalog_warning = f"Unable to get Catalog Data for series {series_id}"
+    if payload["status"] != "REQUEST_SUCCEEDED" or any(
+        note != catalog_warning for note in warnings
+    ):
         raise ValueError(f"BLS refused or returned warnings: {payload.get('message')}")
     series = payload["Results"]["series"]
     if len(series) != 1 or series[0]["seriesID"] != series_id:
@@ -96,7 +100,9 @@ def write_once(path: Path, content: bytes):
                 raise ValueError(f"Immutable artifact differs at {path}")
 
 
-def ingest(source: dict, start: int, end: int, lake: Path, releases: Path):
+def ingest(
+    source: dict, start: int, end: int, lake: Path, releases: Path, *, rolling=False
+):
     code = source["series_id"]
     url = f"https://api.bls.gov/publicAPI/v2/timeseries/data/{code}?startyear={start}&endyear={end}"
     with build_opener(NoRedirect()).open(url, timeout=20) as response:
@@ -108,8 +114,21 @@ def ingest(source: dict, start: int, end: int, lake: Path, releases: Path):
     source_id = source["source_id"]
     write_once(lake / "bronze" / source_id / f"{raw_hash}.json", raw)
     rows = normalize(raw, code, start, end, source["unit"])
+    if rolling:
+        while rows and rows[-1]["footnotes"] == ["Absent from source response"]:
+            rows.pop()
+        manifests = [
+            json.loads(path.read_text())
+            for path in (releases / source_id).glob("*/manifest.json")
+        ]
+        newest = max(manifests, key=lambda item: item["retrieved_at"], default=None)
+        if newest and rows[-1]["month"] < newest["last_month"]:
+            raise ValueError("Publisher response regressed to an older reporting month")
     silver = json.dumps(rows, sort_keys=True).encode()
     silver_hash = digest(silver)
+    if rolling and newest and newest["silver_checksum"] == silver_hash:
+        logger.info(json.dumps({"event": "bls_unchanged", "source_id": source_id}))
+        return newest
     write_once(lake / "silver" / source_id / f"{silver_hash}.json", silver)
     with tempfile.TemporaryDirectory() as path:
         target = Path(path) / "series.parquet"
@@ -140,6 +159,8 @@ def ingest(source: dict, start: int, end: int, lake: Path, releases: Path):
         "rows": len(rows),
         "missing": sum(row["value"] is None for row in rows),
     }
+    if rolling:
+        write_once(ROOT / "data/reproduction" / f"{raw_hash}.json", raw)
     folder = releases / source_id / version
     write_once(folder / "series.parquet", parquet)
     try:
@@ -160,6 +181,7 @@ def main():
     parser.add_argument("sources", nargs="+", choices=["cps", "laus", "jolts"])
     parser.add_argument("--start", type=int, default=2022)
     parser.add_argument("--end", type=int, default=2024)
+    parser.add_argument("--rolling", action="store_true")
     parser.add_argument("--lake", type=Path, default=ROOT / ".lake")
     parser.add_argument("--releases", type=Path, default=ROOT / "data/releases")
     args = parser.parse_args()
@@ -176,7 +198,14 @@ def main():
     failed = False
     for source_id in dict.fromkeys(args.sources):
         try:
-            ingest(registry[source_id], args.start, args.end, args.lake, args.releases)
+            ingest(
+                registry[source_id],
+                args.start,
+                args.end,
+                args.lake,
+                args.releases,
+                rolling=args.rolling,
+            )
         except (OSError, ValueError, KeyError, TypeError) as error:
             logger.error(
                 json.dumps(

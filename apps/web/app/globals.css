@@ -106,3 +106,4 @@ td small,th small{display:block;color:var(--muted);font-size:.875rem;font-weight
   .masthead{flex-direction:row;align-items:center;min-height:54px;padding:4px 0}
   .masthead .button{min-height:36px}
 }
+.release-status{display:block;margin-top:4px;font-variant-numeric:tabular-nums}

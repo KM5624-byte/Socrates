@@ -1,0 +1,41 @@
+name: Refresh official data
+on:
+  schedule:
+    - cron: '19 */4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/refresh-data.yml']
+permissions:
+  contents: write
+concurrency:
+  group: socrates-source-refresh
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    timeout-minutes: 12
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.13.9'
+      - run: uv sync --locked --group ingest
+      - id: acquire
+        continue-on-error: true
+        run: uv run --locked --group ingest bash scripts/refresh-releases
+      - run: PYTHONPATH=services/api uv run --locked python scripts/export-vercel-snapshot.py
+      - run: uv run --locked --group ingest pytest tests/test_pipeline.py tests/test_api.py tests/test_worldbank.py
+      - name: Publish validated updates only
+        run: |
+          git add data/releases data/reproduction apps/web/app/release-snapshot.json apps/web/app/global-releases.json
+          if git diff --cached --quiet; then
+            echo "All release artifacts unchanged"
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh official statistical releases'
+          git push origin HEAD:main
+      - name: Surface source failures
+        if: steps.acquire.outcome == 'failure'
+        run: exit 1

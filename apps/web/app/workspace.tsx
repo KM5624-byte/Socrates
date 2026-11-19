@@ -4,6 +4,7 @@ import { z } from "zod";
 import type { components } from "@aileo/api-client";
 import GlobalPanel from "./global-panel";
 import ResearchPanel from "./research-panel";
+import ReleaseFeed from "../components/release-feed";
 import Chart from "../components/series-chart";
 import { api } from "./data";
 
@@ -161,7 +162,7 @@ export default async function Workspace({ searchParams, section = "overview" }: 
             <td>{item.license_url ? <a href={item.license_url}>{item.license}</a> : item.license}{item.source_id === "onet" && <small>{item.attribution}</small>}</td></tr>)}</tbody></table></div> : <p className="state" role="status">No sources match these filters.</p> : <p role="status">The catalog is temporarily unavailable.</p>}
       </section>}
     </main>
-    <footer className="bottom"><div className="shell">Socrates · AI Labor &amp; Employment Observatory</div></footer>
+    <footer className="bottom"><div className="shell">Socrates · AI Labor &amp; Employment Observatory <ReleaseFeed /></div></footer>
     </div></div>
   </>;
 }

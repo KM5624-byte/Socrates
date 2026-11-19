@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+export PYTHONPATH="services/api:."
+failed=0
+python -m pipelines.ingest cps laus jolts --rolling --start "$(( $(date -u +%Y) - 8 > 2022 ? $(date -u +%Y) - 8 : 2022 ))" --end "$(date -u +%Y)" || failed=1
+python -m pipelines.worldbank || failed=1
+python scripts/export-vercel-snapshot.py
+exit "$failed"

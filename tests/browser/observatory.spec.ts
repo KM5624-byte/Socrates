@@ -72,3 +72,15 @@ test("compares global annual estimates and exports their provenance", async ({ p
   expect(response.ok()).toBeTruthy();
   expect(await response.json()).toMatchObject({ indicator: "SL.TLF.CACT.ZS", inference: "modeled_estimate", frequency: "annual" });
 });
+
+test("publishes release metadata and retains pinned BLS exports", async ({ request }) => {
+  const feed = await request.get("/api/releases");
+  expect(feed.ok()).toBeTruthy();
+  expect(feed.headers()["cache-control"]).toBe("no-store");
+  const { sources } = await feed.json();
+  expect(sources).toHaveLength(6);
+  expect(sources.find((item: { id: string }) => item.id === "cps").version).toMatch(/^[a-f0-9]{64}$/);
+  const historical = await request.get("/api/export?source=cps&start=2024-01&end=2024-02&version=a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a");
+  expect(historical.ok()).toBeTruthy();
+  expect((await historical.text()).trim().split(/\r?\n/)).toHaveLength(3);
+});

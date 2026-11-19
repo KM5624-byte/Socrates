@@ -46,3 +46,5 @@ The Vercel read-only fallback serves the pinned pilot without Cloud Run when no 
 - The Vercel gateway runs descriptive summaries, deterministic endpoint changes and NYC design-coverage diagnostics on pinned data, with downloadable run records.
 - The Python notebook study router runs summaries, deterministic endpoints, Ridge with a persistence baseline, and seeded Monte Carlo. Its causal route rejects unsupported identification with the single-series pilot data.
 - Hosted notebook execution, the PostgreSQL job layer, authorization and durable object storage are outstanding. Public requests cannot submit arbitrary code or start Jupyter kernels.
+
+Recurring deterministic refresh is configured for three BLS series and three World Bank indicators. The schedule polls publishers every four hours and only publishes validated changes. The UI checks for new releases once per minute while visible. Other registered sources and curated legal milestones have no automated connector in this release.
