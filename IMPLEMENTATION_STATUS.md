@@ -39,3 +39,10 @@ The pilot displays published estimates and separately identified policy events. 
 - Type checking, ESLint, Ruff, production build, Terraform validation, and npm and core Python dependency audits passed. Python test output includes an upstream Starlette TestClient deprecation warning.
 
 The Vercel read-only fallback serves the pinned pilot without Cloud Run when no upstream is configured. The three production-mode Playwright tests also passed with the fallback enabled.
+
+## Socrates app and research workbench
+
+- Routed overview, labor, regulation, catalog, methodology and workbench pages share a responsive navigation shell. The catalog supports search and validated-release filtering.
+- The Vercel gateway runs descriptive summaries, deterministic endpoint changes and NYC design-coverage diagnostics on pinned data, with downloadable run records.
+- The Python notebook study router runs summaries, deterministic endpoints, Ridge with a persistence baseline, and seeded Monte Carlo. Its causal route rejects unsupported identification with the single-series pilot data.
+- Hosted notebook execution, the PostgreSQL job layer, authorization and durable object storage are outstanding. Public requests cannot submit arbitrary code or start Jupyter kernels.

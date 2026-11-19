@@ -11,7 +11,9 @@ snapshot = {
     "catalog": [item.model_dump(mode="json") for item in catalog],
     "events": [event.model_dump(mode="json") for event in policy_events()],
     "series": {
-        source.source_id: series_data(source.source_id, None, None, None).model_dump(mode="json")
+        source.source_id: series_data(source.source_id, None, None, None).model_dump(
+            mode="json"
+        )
         for source in catalog
         if source.series_id and source.dataset_version
     },

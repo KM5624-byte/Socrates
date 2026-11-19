@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AILEO | AI Labor & Employment Observatory",
+  title: "Socrates | AI Labor & Employment Observatory",
   description: "Source-linked labor market data and regulatory timelines for public-interest research.",
 };
 

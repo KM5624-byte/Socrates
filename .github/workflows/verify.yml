@@ -21,7 +21,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: uv run --locked ruff check services/api pipelines research tests
       - run: uv run --locked ruff format --check services/api pipelines research tests
-      - run: uv run --locked --group ingest pytest
+      - run: uv run --locked --group ingest --group research pytest
       - run: pnpm api:generate && git diff --exit-code -- packages/api-client/schema.d.ts
       - run: pnpm check && pnpm build
       - run: pnpm exec playwright install --with-deps chromium

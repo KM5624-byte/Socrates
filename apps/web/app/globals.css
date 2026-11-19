@@ -62,3 +62,47 @@ td small,th small{display:block;color:var(--muted);font-size:.875rem;font-weight
 .skip:focus{top:12px}
 @media(max-width:900px){.workspace{grid-template-columns:1fr}}
 @media(max-width:600px){.shell{width:calc(100% - 32px)}.masthead{padding:12px 0;align-items:flex-start;flex-direction:column;gap:9px}.intro{padding:38px 0 28px}.panel,.methods,.catalog{padding:16px}.wide{display:none}.chart{height:245px}}
+
+/* Workspace shell */
+.app-shell{display:grid;grid-template-columns:232px minmax(0,1fr);min-height:100vh}
+.app-body{min-width:0;display:flex;flex-direction:column}
+.app-body main{flex:1;padding-bottom:30px}
+.side{align-self:start;position:sticky;top:0;min-height:100vh;padding:22px 14px;background:var(--surface);border-right:1px solid var(--line)}
+.side .brand{gap:10px;margin:0 8px 30px;line-height:1.2;letter-spacing:-.02em}
+.side .brand small{display:block;font-size:.8125rem;color:var(--muted);margin-top:4px;letter-spacing:0}
+.side nav{display:grid;gap:5px}
+.side nav a{display:flex;align-items:center;gap:10px;padding:11px 10px;border-radius:7px;min-height:44px;font-size:.9375rem}
+.side nav a[aria-current=page]{background:var(--accent-bg);color:var(--accent-ink);font-weight:720}
+.side nav a:hover{background:var(--accent-bg)}
+.shell{width:min(1400px,calc(100% - 48px))}
+.masthead{min-height:60px;color:var(--muted);font-size:.875rem}
+.masthead strong{color:var(--ink)}
+.masthead span span{margin:0 7px;color:var(--muted)}
+.intro{padding:32px 0 24px}
+.intro h1{font-size:clamp(1.8rem,3vw,2.7rem);letter-spacing:-.045em}
+.intro>p:not(.eyebrow){max-width:72ch;margin:8px 0 0;font-size:1rem}
+.workspace{gap:16px;grid-template-columns:minmax(0,1.9fr) minmax(290px,1fr)}
+.workspace.single{grid-template-columns:minmax(0,1fr)}
+.panel,.methods,.catalog{border-radius:9px}
+.catalog{margin-top:0}
+.research-grid{display:grid;grid-template-columns:minmax(245px,1fr) minmax(0,2fr);gap:16px;align-items:start}
+.research-form{display:grid;gap:14px;margin-top:16px;justify-items:stretch}
+.research-form .filters{margin:0}
+.research-form .button{justify-self:start}
+.metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:18px 0}
+.metric-grid div,.state{border:1px solid var(--line);background:var(--canvas);border-radius:8px;padding:12px}
+.metric-grid dt{font-size:.875rem;color:var(--muted)}
+.metric-grid dd{font-size:1.55rem;font-variant-numeric:tabular-nums;font-weight:680;margin:4px 0 0}
+.diagnostics{padding-left:1.3rem;list-style:disc;margin:8px 0 16px;color:var(--muted)}
+.diagnostics li+li{margin-top:6px}
+@media(max-width:1100px){.workspace,.research-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:760px){
+  .app-shell{grid-template-columns:minmax(0,1fr)}
+  .side{position:static;min-height:auto;border-right:0;border-bottom:1px solid var(--line);padding:12px 16px 8px}
+  .side .brand{margin:0 0 8px}
+  .side nav{display:flex;flex-wrap:nowrap;overflow:auto;padding:3px 2px;gap:5px}
+  .side nav a{flex:none;white-space:nowrap;padding:9px}
+  .shell{width:calc(100% - 32px)}
+  .masthead{flex-direction:row;align-items:center;min-height:54px;padding:4px 0}
+  .masthead .button{min-height:36px}
+}

@@ -1,4 +1,4 @@
-# AILEO · AI Labor & Employment Observatory
+# Socrates · AI Labor & Employment Observatory
 
 A public research platform for exploring published labor-market estimates and tracing AI regulation to primary sources. The pilot serves real BLS and O*NET releases through FastAPI and DuckDB, with a server-rendered Next.js interface and a separate notebook environment.
 
@@ -23,7 +23,7 @@ Serve a frozen release with `docker compose up --build api`. To start isolated a
 ```sh
 uv run --locked --group ingest python -m pipelines.ingest cps laus jolts --start 2022 --end 2024
 uv run --locked --group ingest python -m pipelines.onet
-uv run --locked --group ingest pytest
+uv run --locked --group ingest --group research pytest
 uv run --locked ruff check services/api pipelines research tests
 pnpm check
 pnpm build

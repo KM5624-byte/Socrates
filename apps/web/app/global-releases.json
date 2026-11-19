@@ -1,0 +1,1097 @@
+[
+  {
+    "version": "8d821f3837c143a42c3e3ad4119a7456679dfa298bde9a0ce991f22dee278dd2",
+    "source": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+    "source_url": "https://api.worldbank.org/v2/country/USA;CAN;MEX;DEU;GBR;JPN;WLD/indicator/SL.UEM.TOTL.ZS?format=json&date=2015:2025&per_page=1000",
+    "source_updated": "2026-11-11",
+    "retrieved_at": "2026-11-19T07:42:49.800936+00:00",
+    "indicator": "SL.UEM.TOTL.ZS",
+    "label": "Unemployment rate",
+    "license": "CC BY 4.0",
+    "inference": "modeled_estimate",
+    "frequency": "annual",
+    "unit": "Percent of total labor force",
+    "series": [
+      {
+        "code": "USA",
+        "name": "United States",
+        "values": [
+          {
+            "year": 2015,
+            "value": 5.28
+          },
+          {
+            "year": 2016,
+            "value": 4.869
+          },
+          {
+            "year": 2017,
+            "value": 4.355
+          },
+          {
+            "year": 2018,
+            "value": 3.896
+          },
+          {
+            "year": 2019,
+            "value": 3.669
+          },
+          {
+            "year": 2020,
+            "value": 8.055
+          },
+          {
+            "year": 2021,
+            "value": 5.349
+          },
+          {
+            "year": 2022,
+            "value": 3.65
+          },
+          {
+            "year": 2023,
+            "value": 3.638
+          },
+          {
+            "year": 2024,
+            "value": 4.022
+          },
+          {
+            "year": 2025,
+            "value": 4.198
+          }
+        ]
+      },
+      {
+        "code": "CAN",
+        "name": "Canada",
+        "values": [
+          {
+            "year": 2015,
+            "value": 6.945
+          },
+          {
+            "year": 2016,
+            "value": 7.038
+          },
+          {
+            "year": 2017,
+            "value": 6.426
+          },
+          {
+            "year": 2018,
+            "value": 5.837
+          },
+          {
+            "year": 2019,
+            "value": 5.69
+          },
+          {
+            "year": 2020,
+            "value": 9.657
+          },
+          {
+            "year": 2021,
+            "value": 7.527
+          },
+          {
+            "year": 2022,
+            "value": 5.279
+          },
+          {
+            "year": 2023,
+            "value": 5.415
+          },
+          {
+            "year": 2024,
+            "value": 6.351
+          },
+          {
+            "year": 2025,
+            "value": 6.907
+          }
+        ]
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "values": [
+          {
+            "year": 2015,
+            "value": 4.311
+          },
+          {
+            "year": 2016,
+            "value": 3.853
+          },
+          {
+            "year": 2017,
+            "value": 3.419
+          },
+          {
+            "year": 2018,
+            "value": 3.275
+          },
+          {
+            "year": 2019,
+            "value": 3.477
+          },
+          {
+            "year": 2020,
+            "value": 4.44
+          },
+          {
+            "year": 2021,
+            "value": 4.019
+          },
+          {
+            "year": 2022,
+            "value": 3.256
+          },
+          {
+            "year": 2023,
+            "value": 2.765
+          },
+          {
+            "year": 2024,
+            "value": 2.678
+          },
+          {
+            "year": 2025,
+            "value": 2.673
+          }
+        ]
+      },
+      {
+        "code": "DEU",
+        "name": "Germany",
+        "values": [
+          {
+            "year": 2015,
+            "value": 4.612
+          },
+          {
+            "year": 2016,
+            "value": 4.104
+          },
+          {
+            "year": 2017,
+            "value": 3.781
+          },
+          {
+            "year": 2018,
+            "value": 3.384
+          },
+          {
+            "year": 2019,
+            "value": 3.163
+          },
+          {
+            "year": 2020,
+            "value": 3.881
+          },
+          {
+            "year": 2021,
+            "value": 3.594
+          },
+          {
+            "year": 2022,
+            "value": 3.137
+          },
+          {
+            "year": 2023,
+            "value": 3.071
+          },
+          {
+            "year": 2024,
+            "value": 3.4
+          },
+          {
+            "year": 2025,
+            "value": 3.711
+          }
+        ]
+      },
+      {
+        "code": "GBR",
+        "name": "United Kingdom",
+        "values": [
+          {
+            "year": 2015,
+            "value": 5.552
+          },
+          {
+            "year": 2016,
+            "value": 4.909
+          },
+          {
+            "year": 2017,
+            "value": 4.501
+          },
+          {
+            "year": 2018,
+            "value": 4.145
+          },
+          {
+            "year": 2019,
+            "value": 3.657
+          },
+          {
+            "year": 2020,
+            "value": 4.472
+          },
+          {
+            "year": 2021,
+            "value": 4.864
+          },
+          {
+            "year": 2022,
+            "value": 3.768
+          },
+          {
+            "year": 2023,
+            "value": 4.025
+          },
+          {
+            "year": 2024,
+            "value": 4.361
+          },
+          {
+            "year": 2025,
+            "value": 4.746
+          }
+        ]
+      },
+      {
+        "code": "JPN",
+        "name": "Japan",
+        "values": [
+          {
+            "year": 2015,
+            "value": 3.385
+          },
+          {
+            "year": 2016,
+            "value": 3.132
+          },
+          {
+            "year": 2017,
+            "value": 2.822
+          },
+          {
+            "year": 2018,
+            "value": 2.467
+          },
+          {
+            "year": 2019,
+            "value": 2.351
+          },
+          {
+            "year": 2020,
+            "value": 2.809
+          },
+          {
+            "year": 2021,
+            "value": 2.808
+          },
+          {
+            "year": 2022,
+            "value": 2.614
+          },
+          {
+            "year": 2023,
+            "value": 2.6
+          },
+          {
+            "year": 2024,
+            "value": 2.5
+          },
+          {
+            "year": 2025,
+            "value": 2.451
+          }
+        ]
+      },
+      {
+        "code": "WLD",
+        "name": "World",
+        "values": [
+          {
+            "year": 2015,
+            "value": 5.9985085966435
+          },
+          {
+            "year": 2016,
+            "value": 5.97088327776689
+          },
+          {
+            "year": 2017,
+            "value": 5.89802388961045
+          },
+          {
+            "year": 2018,
+            "value": 5.7595415280045
+          },
+          {
+            "year": 2019,
+            "value": 5.58847960382446
+          },
+          {
+            "year": 2020,
+            "value": 6.58768935720693
+          },
+          {
+            "year": 2021,
+            "value": 6.04556088000376
+          },
+          {
+            "year": 2022,
+            "value": 5.23462796913747
+          },
+          {
+            "year": 2023,
+            "value": 4.84991713588619
+          },
+          {
+            "year": 2024,
+            "value": 4.80627976615483
+          },
+          {
+            "year": 2025,
+            "value": 4.7913330740211
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "e893724419491ab415aeaa991ea5f2f764840039dc4650ac11abd6363b298955",
+    "source": "https://data.worldbank.org/indicator/SL.TLF.CACT.ZS",
+    "source_url": "https://api.worldbank.org/v2/country/USA;CAN;MEX;DEU;GBR;JPN;WLD/indicator/SL.TLF.CACT.ZS?format=json&date=2015:2025&per_page=1000",
+    "source_updated": "2026-11-11",
+    "retrieved_at": "2026-11-19T07:42:52.709789+00:00",
+    "indicator": "SL.TLF.CACT.ZS",
+    "label": "Labor force participation rate",
+    "license": "CC BY 4.0",
+    "inference": "modeled_estimate",
+    "frequency": "annual",
+    "unit": "Percent of population ages 15 and older",
+    "series": [
+      {
+        "code": "USA",
+        "name": "United States",
+        "values": [
+          {
+            "year": 2015,
+            "value": 62.267
+          },
+          {
+            "year": 2016,
+            "value": 62.431
+          },
+          {
+            "year": 2017,
+            "value": 62.548
+          },
+          {
+            "year": 2018,
+            "value": 62.592
+          },
+          {
+            "year": 2019,
+            "value": 62.848
+          },
+          {
+            "year": 2020,
+            "value": 61.556
+          },
+          {
+            "year": 2021,
+            "value": 61.501
+          },
+          {
+            "year": 2022,
+            "value": 61.794
+          },
+          {
+            "year": 2023,
+            "value": 62.08
+          },
+          {
+            "year": 2024,
+            "value": 61.959
+          },
+          {
+            "year": 2025,
+            "value": 61.704
+          }
+        ]
+      },
+      {
+        "code": "CAN",
+        "name": "Canada",
+        "values": [
+          {
+            "year": 2015,
+            "value": 65.887
+          },
+          {
+            "year": 2016,
+            "value": 65.638
+          },
+          {
+            "year": 2017,
+            "value": 65.792
+          },
+          {
+            "year": 2018,
+            "value": 65.547
+          },
+          {
+            "year": 2019,
+            "value": 65.809
+          },
+          {
+            "year": 2020,
+            "value": 64.097
+          },
+          {
+            "year": 2021,
+            "value": 65.195
+          },
+          {
+            "year": 2022,
+            "value": 65.247
+          },
+          {
+            "year": 2023,
+            "value": 65.361
+          },
+          {
+            "year": 2024,
+            "value": 64.739
+          },
+          {
+            "year": 2025,
+            "value": 64.516
+          }
+        ]
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "values": [
+          {
+            "year": 2015,
+            "value": 60.552
+          },
+          {
+            "year": 2016,
+            "value": 60.427
+          },
+          {
+            "year": 2017,
+            "value": 60.209
+          },
+          {
+            "year": 2018,
+            "value": 60.429
+          },
+          {
+            "year": 2019,
+            "value": 61.12
+          },
+          {
+            "year": 2020,
+            "value": 56.426
+          },
+          {
+            "year": 2021,
+            "value": 59.925
+          },
+          {
+            "year": 2022,
+            "value": 60.946
+          },
+          {
+            "year": 2023,
+            "value": 61.743
+          },
+          {
+            "year": 2024,
+            "value": 61.635
+          },
+          {
+            "year": 2025,
+            "value": 61.609
+          }
+        ]
+      },
+      {
+        "code": "DEU",
+        "name": "Germany",
+        "values": [
+          {
+            "year": 2015,
+            "value": 60.22
+          },
+          {
+            "year": 2016,
+            "value": 60.411
+          },
+          {
+            "year": 2017,
+            "value": 60.659
+          },
+          {
+            "year": 2018,
+            "value": 60.859
+          },
+          {
+            "year": 2019,
+            "value": 61.307
+          },
+          {
+            "year": 2020,
+            "value": 60.478
+          },
+          {
+            "year": 2021,
+            "value": 60.395
+          },
+          {
+            "year": 2022,
+            "value": 60.835
+          },
+          {
+            "year": 2023,
+            "value": 61.05
+          },
+          {
+            "year": 2024,
+            "value": 60.921
+          },
+          {
+            "year": 2025,
+            "value": 60.571
+          }
+        ]
+      },
+      {
+        "code": "GBR",
+        "name": "United Kingdom",
+        "values": [
+          {
+            "year": 2015,
+            "value": 62.25
+          },
+          {
+            "year": 2016,
+            "value": 62.408
+          },
+          {
+            "year": 2017,
+            "value": 62.412
+          },
+          {
+            "year": 2018,
+            "value": 62.619
+          },
+          {
+            "year": 2019,
+            "value": 62.625
+          },
+          {
+            "year": 2020,
+            "value": 62.573
+          },
+          {
+            "year": 2021,
+            "value": 61.973
+          },
+          {
+            "year": 2022,
+            "value": 61.905
+          },
+          {
+            "year": 2023,
+            "value": 61.811
+          },
+          {
+            "year": 2024,
+            "value": 61.556
+          },
+          {
+            "year": 2025,
+            "value": 61.369
+          }
+        ]
+      },
+      {
+        "code": "JPN",
+        "name": "Japan",
+        "values": [
+          {
+            "year": 2015,
+            "value": 59.499
+          },
+          {
+            "year": 2016,
+            "value": 59.986
+          },
+          {
+            "year": 2017,
+            "value": 60.444
+          },
+          {
+            "year": 2018,
+            "value": 61.446
+          },
+          {
+            "year": 2019,
+            "value": 62.008
+          },
+          {
+            "year": 2020,
+            "value": 61.947
+          },
+          {
+            "year": 2021,
+            "value": 62.053
+          },
+          {
+            "year": 2022,
+            "value": 62.502
+          },
+          {
+            "year": 2023,
+            "value": 62.9
+          },
+          {
+            "year": 2024,
+            "value": 63.3
+          },
+          {
+            "year": 2025,
+            "value": 63.448
+          }
+        ]
+      },
+      {
+        "code": "WLD",
+        "name": "World",
+        "values": [
+          {
+            "year": 2015,
+            "value": 61.6405933694226
+          },
+          {
+            "year": 2016,
+            "value": 61.4846212125077
+          },
+          {
+            "year": 2017,
+            "value": 61.2982591216865
+          },
+          {
+            "year": 2018,
+            "value": 61.1644554588884
+          },
+          {
+            "year": 2019,
+            "value": 61.029381926591
+          },
+          {
+            "year": 2020,
+            "value": 59.6447533933384
+          },
+          {
+            "year": 2021,
+            "value": 60.3845265818053
+          },
+          {
+            "year": 2022,
+            "value": 60.736673176034
+          },
+          {
+            "year": 2023,
+            "value": 61.1989275299866
+          },
+          {
+            "year": 2024,
+            "value": 61.1328825665623
+          },
+          {
+            "year": 2025,
+            "value": 60.9808041802524
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "3962c8202143f49be5df422ccbfcf9b4c2b0908d34174ca09919e3b614e179e3",
+    "source": "https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.ZS",
+    "source_url": "https://api.worldbank.org/v2/country/USA;CAN;MEX;DEU;GBR;JPN;WLD/indicator/SL.EMP.TOTL.SP.ZS?format=json&date=2015:2025&per_page=1000",
+    "source_updated": "2026-11-11",
+    "retrieved_at": "2026-11-19T07:42:55.389250+00:00",
+    "indicator": "SL.EMP.TOTL.SP.ZS",
+    "label": "Employment-to-population ratio",
+    "license": "CC BY 4.0",
+    "inference": "modeled_estimate",
+    "frequency": "annual",
+    "unit": "Percent of population ages 15 and older",
+    "series": [
+      {
+        "code": "USA",
+        "name": "United States",
+        "values": [
+          {
+            "year": 2015,
+            "value": 58.979
+          },
+          {
+            "year": 2016,
+            "value": 59.391
+          },
+          {
+            "year": 2017,
+            "value": 59.824
+          },
+          {
+            "year": 2018,
+            "value": 60.153
+          },
+          {
+            "year": 2019,
+            "value": 60.543
+          },
+          {
+            "year": 2020,
+            "value": 56.598
+          },
+          {
+            "year": 2021,
+            "value": 58.211
+          },
+          {
+            "year": 2022,
+            "value": 59.538
+          },
+          {
+            "year": 2023,
+            "value": 59.821
+          },
+          {
+            "year": 2024,
+            "value": 59.467
+          },
+          {
+            "year": 2025,
+            "value": 59.114
+          }
+        ]
+      },
+      {
+        "code": "CAN",
+        "name": "Canada",
+        "values": [
+          {
+            "year": 2015,
+            "value": 61.311
+          },
+          {
+            "year": 2016,
+            "value": 61.018
+          },
+          {
+            "year": 2017,
+            "value": 61.564
+          },
+          {
+            "year": 2018,
+            "value": 61.721
+          },
+          {
+            "year": 2019,
+            "value": 62.065
+          },
+          {
+            "year": 2020,
+            "value": 57.907
+          },
+          {
+            "year": 2021,
+            "value": 60.288
+          },
+          {
+            "year": 2022,
+            "value": 61.802
+          },
+          {
+            "year": 2023,
+            "value": 61.822
+          },
+          {
+            "year": 2024,
+            "value": 60.627
+          },
+          {
+            "year": 2025,
+            "value": 60.061
+          }
+        ]
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "values": [
+          {
+            "year": 2015,
+            "value": 57.941
+          },
+          {
+            "year": 2016,
+            "value": 58.099
+          },
+          {
+            "year": 2017,
+            "value": 58.15
+          },
+          {
+            "year": 2018,
+            "value": 58.45
+          },
+          {
+            "year": 2019,
+            "value": 58.995
+          },
+          {
+            "year": 2020,
+            "value": 53.921
+          },
+          {
+            "year": 2021,
+            "value": 57.517
+          },
+          {
+            "year": 2022,
+            "value": 58.961
+          },
+          {
+            "year": 2023,
+            "value": 60.036
+          },
+          {
+            "year": 2024,
+            "value": 59.985
+          },
+          {
+            "year": 2025,
+            "value": 59.962
+          }
+        ]
+      },
+      {
+        "code": "DEU",
+        "name": "Germany",
+        "values": [
+          {
+            "year": 2015,
+            "value": 57.442
+          },
+          {
+            "year": 2016,
+            "value": 57.932
+          },
+          {
+            "year": 2017,
+            "value": 58.366
+          },
+          {
+            "year": 2018,
+            "value": 58.8
+          },
+          {
+            "year": 2019,
+            "value": 59.368
+          },
+          {
+            "year": 2020,
+            "value": 58.131
+          },
+          {
+            "year": 2021,
+            "value": 58.224
+          },
+          {
+            "year": 2022,
+            "value": 58.926
+          },
+          {
+            "year": 2023,
+            "value": 59.175
+          },
+          {
+            "year": 2024,
+            "value": 58.849
+          },
+          {
+            "year": 2025,
+            "value": 58.323
+          }
+        ]
+      },
+      {
+        "code": "GBR",
+        "name": "United Kingdom",
+        "values": [
+          {
+            "year": 2015,
+            "value": 58.793
+          },
+          {
+            "year": 2016,
+            "value": 59.344
+          },
+          {
+            "year": 2017,
+            "value": 59.603
+          },
+          {
+            "year": 2018,
+            "value": 60.023
+          },
+          {
+            "year": 2019,
+            "value": 60.335
+          },
+          {
+            "year": 2020,
+            "value": 59.775
+          },
+          {
+            "year": 2021,
+            "value": 58.959
+          },
+          {
+            "year": 2022,
+            "value": 59.573
+          },
+          {
+            "year": 2023,
+            "value": 59.323
+          },
+          {
+            "year": 2024,
+            "value": 58.871
+          },
+          {
+            "year": 2025,
+            "value": 58.457
+          }
+        ]
+      },
+      {
+        "code": "JPN",
+        "name": "Japan",
+        "values": [
+          {
+            "year": 2015,
+            "value": 57.485
+          },
+          {
+            "year": 2016,
+            "value": 58.107
+          },
+          {
+            "year": 2017,
+            "value": 58.738
+          },
+          {
+            "year": 2018,
+            "value": 59.931
+          },
+          {
+            "year": 2019,
+            "value": 60.55
+          },
+          {
+            "year": 2020,
+            "value": 60.207
+          },
+          {
+            "year": 2021,
+            "value": 60.31
+          },
+          {
+            "year": 2022,
+            "value": 60.868
+          },
+          {
+            "year": 2023,
+            "value": 61.265
+          },
+          {
+            "year": 2024,
+            "value": 61.717
+          },
+          {
+            "year": 2025,
+            "value": 61.893
+          }
+        ]
+      },
+      {
+        "code": "WLD",
+        "name": "World",
+        "values": [
+          {
+            "year": 2015,
+            "value": 57.9430785689778
+          },
+          {
+            "year": 2016,
+            "value": 57.8135145857493
+          },
+          {
+            "year": 2017,
+            "value": 57.6830227972906
+          },
+          {
+            "year": 2018,
+            "value": 57.6415566793881
+          },
+          {
+            "year": 2019,
+            "value": 57.6186945546076
+          },
+          {
+            "year": 2020,
+            "value": 55.715585009247
+          },
+          {
+            "year": 2021,
+            "value": 56.7338124088397
+          },
+          {
+            "year": 2022,
+            "value": 57.5572678784449
+          },
+          {
+            "year": 2023,
+            "value": 58.2309285293986
+          },
+          {
+            "year": 2024,
+            "value": 58.1947453467219
+          },
+          {
+            "year": 2025,
+            "value": 58.0590350423143
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -39,3 +39,36 @@ test("switches to the EU timeline and hides incompatible policy overlays", async
   await expect(page.getByText("Consolidated text date")).toBeVisible();
   await expect(page.getByText("Dashed lines indicate months")).toHaveCount(0);
 });
+
+test("navigates workspaces and executes a reproducible coverage check", async ({ page, request }) => {
+  await page.goto("/");
+  const menu = page.getByRole("navigation", { name: "Main navigation" });
+  await menu.getByRole("link", { name: "Data catalog" }).click();
+  await expect(page).toHaveURL(/\/catalog$/);
+  await expect(menu.getByRole("link", { name: "Data catalog" })).toHaveAttribute("aria-current", "page");
+  await menu.getByRole("link", { name: "Research workbench" }).click();
+  await expect(page).toHaveURL(/\/research$/);
+  await page.getByLabel("Method").selectOption("policy-coverage");
+  await page.getByRole("button", { name: "Run analysis" }).click();
+  await expect(page.getByText(/Identification unsupported/)).toBeVisible();
+  const href = await page.getByRole("link", {name: "Download run"}).getAttribute("href");
+  const response = await request.get(href!);
+  expect(response.ok()).toBeTruthy();
+  const run = await response.json();
+  expect(run.inference).toBe("identification_unsupported");
+  expect(run.input.version).toMatch(/^[a-f0-9]{64}$/);
+  expect(run.metrics.find((item: {label: string}) => item.label === "Enforcement month").value).toBe(1);
+});
+
+test("compares global annual estimates and exports their provenance", async ({ page, request }) => {
+  await page.goto("/global");
+  await page.getByLabel("Indicator").selectOption("SL.TLF.CACT.ZS");
+  await page.getByLabel("Compare the U.S. with").selectOption("JPN");
+  await page.getByRole("button", { name: "Compare" }).click();
+  await expect(page.getByRole("columnheader", { name: "Japan" })).toBeVisible();
+  await expect(page.getByText("Labor force participation rate", { exact: true }).last()).toBeVisible();
+  const href = await page.getByRole("link", { name: "Download release" }).getAttribute("href");
+  const response = await request.get(href!);
+  expect(response.ok()).toBeTruthy();
+  expect(await response.json()).toMatchObject({ indicator: "SL.TLF.CACT.ZS", inference: "modeled_estimate", frequency: "annual" });
+});

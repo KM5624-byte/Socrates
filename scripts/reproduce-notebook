@@ -3,7 +3,7 @@ set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 mkdir -p research/output
 export PYTHONPATH="$PWD${PYTHONPATH:+:$PYTHONPATH}"
-for notebook in labor_baseline policy_coverage; do
+for notebook in labor_baseline policy_coverage model_router; do
   jupytext --to ipynb --output "research/output/$notebook.ipynb" "research/notebooks/$notebook.py"
   papermill "research/output/$notebook.ipynb" "research/output/$notebook.executed.ipynb" -k python3
 done
