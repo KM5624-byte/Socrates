@@ -5,22 +5,22 @@
       "publisher": "U.S. Bureau of Labor Statistics",
       "canonical_url": "https://data.bls.gov/timeseries/LNS14000000",
       "dataset_name": "Unemployment rate",
-      "dataset_version": "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+      "dataset_version": "994df200563e381d476423d3843a939833f20eea0c710f2394aa01b19c770b78",
       "license": "Public domain (BLS-produced aggregate statistics)",
       "access_method": "BLS Public Data API v2 GET",
       "authentication_required": false,
       "retrieval_status": "Validated",
-      "last_successful_sync": "2026-11-19T06:24:42.516740Z",
-      "last_checked_at": "2026-11-19T06:24:42.516740Z",
+      "last_successful_sync": "2026-11-19T07:50:44.256227Z",
+      "last_checked_at": "2026-11-19T07:50:44.256227Z",
       "next_scheduled_sync": null,
       "geographic_coverage": "United States",
-      "temporal_coverage": "2022-01 to 2024-12",
+      "temporal_coverage": "2022-01 to 2026-10",
       "original_schema": "BLS v2 Results.series[].data[]",
       "normalization_schema": "monthly-observation-v1",
       "attribution": "U.S. Bureau of Labor Statistics",
       "known_limitations": "Household survey estimate. BLS can revise seasonal adjustments.",
-      "source_checksum": "811390681528ce1cd8fae637ea55c5a56b5ec19690dff713cf6d50e0583a8cd3",
-      "lineage_reference": "/api/v1/datasets/cps/releases/a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+      "source_checksum": "d2cfec94260f4ae18a8823e25eaa56d5959ec530d62c7368813814ef6ff4a2ed",
+      "lineage_reference": "/api/v1/datasets/cps/releases/994df200563e381d476423d3843a939833f20eea0c710f2394aa01b19c770b78",
       "series_id": "LNS14000000",
       "unit": "percent",
       "adjustment": "Seasonally adjusted",
@@ -33,22 +33,22 @@
       "publisher": "U.S. Bureau of Labor Statistics",
       "canonical_url": "https://data.bls.gov/timeseries/LAUCN360610000000003",
       "dataset_name": "Unemployment rate",
-      "dataset_version": "8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+      "dataset_version": "c375c3dbfe8aa60360a1f0fb91526357a9946a84b41d688f044334695d0ad992",
       "license": "Public domain (BLS-produced aggregate statistics)",
       "access_method": "BLS Public Data API v2 GET",
       "authentication_required": false,
       "retrieval_status": "Validated",
-      "last_successful_sync": "2026-11-19T06:24:42.776127Z",
-      "last_checked_at": "2026-11-19T06:24:42.776127Z",
+      "last_successful_sync": "2026-11-19T07:50:44.368334Z",
+      "last_checked_at": "2026-11-19T07:50:44.368334Z",
       "next_scheduled_sync": null,
       "geographic_coverage": "New York County, NY",
-      "temporal_coverage": "2022-01 to 2024-12",
+      "temporal_coverage": "2022-01 to 2026-09",
       "original_schema": "BLS v2 Results.series[].data[]",
       "normalization_schema": "monthly-observation-v1",
       "attribution": "U.S. Bureau of Labor Statistics",
       "known_limitations": "Residence-based county estimate. New York County is Manhattan, one of five NYC boroughs. Seasonal variation and revisions affect comparisons.",
-      "source_checksum": "c835150b05f5ba9fce349058af4bd1de25d205e12734d06a5598bf97dfa06c2d",
-      "lineage_reference": "/api/v1/datasets/laus/releases/8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+      "source_checksum": "d4a5bf7453814cf434c5c864c2002f8ec5507f30f50f82ca53591b9bd8edeeba",
+      "lineage_reference": "/api/v1/datasets/laus/releases/c375c3dbfe8aa60360a1f0fb91526357a9946a84b41d688f044334695d0ad992",
       "series_id": "LAUCN360610000000003",
       "unit": "percent",
       "adjustment": "Not seasonally adjusted",
@@ -61,22 +61,22 @@
       "publisher": "U.S. Bureau of Labor Statistics",
       "canonical_url": "https://data.bls.gov/timeseries/JTS000000000000000JOL",
       "dataset_name": "Job openings",
-      "dataset_version": "b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+      "dataset_version": "4d48e20a9d58fc473bade764a7909538e03a94355e9263a54c9992a831ec142a",
       "license": "Public domain (BLS-produced aggregate statistics)",
       "access_method": "BLS Public Data API v2 GET",
       "authentication_required": false,
       "retrieval_status": "Validated",
-      "last_successful_sync": "2026-11-19T06:24:43.018275Z",
-      "last_checked_at": "2026-11-19T06:24:43.018275Z",
+      "last_successful_sync": "2026-11-19T07:50:44.474291Z",
+      "last_checked_at": "2026-11-19T07:50:44.474291Z",
       "next_scheduled_sync": null,
       "geographic_coverage": "United States",
-      "temporal_coverage": "2022-01 to 2024-12",
+      "temporal_coverage": "2022-01 to 2026-09",
       "original_schema": "BLS v2 Results.series[].data[]",
       "normalization_schema": "monthly-observation-v1",
       "attribution": "U.S. Bureau of Labor Statistics",
       "known_limitations": "Establishment survey estimate of openings. Openings and hires are distinct measures.",
-      "source_checksum": "d7f133d6b061c7c353d5fac57ade998bb3aa60296dd7196448c95f97fb2a9e6a",
-      "lineage_reference": "/api/v1/datasets/jolts/releases/b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+      "source_checksum": "a733a958bbd4056615925909fe034b346c0d0808d965678c031fdb8a82e13008",
+      "lineage_reference": "/api/v1/datasets/jolts/releases/4d48e20a9d58fc473bade764a7909538e03a94355e9263a54c9992a831ec142a",
       "series_id": "JTS000000000000000JOL",
       "unit": "thousands",
       "adjustment": "Seasonally adjusted",
@@ -626,6 +626,698 @@
       "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
     }
   ],
+  "history": {
+    "cps": {
+      "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a": {
+        "inference": "published_estimate",
+        "source": {
+          "source_id": "cps",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "canonical_url": "https://data.bls.gov/timeseries/LNS14000000",
+          "dataset_name": "Unemployment rate",
+          "dataset_version": "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+          "license": "Public domain (BLS-produced aggregate statistics)",
+          "access_method": "BLS Public Data API v2 GET",
+          "authentication_required": false,
+          "retrieval_status": "Validated",
+          "last_successful_sync": "2026-11-19T06:24:42.516740Z",
+          "last_checked_at": "2026-11-19T06:24:42.516740Z",
+          "next_scheduled_sync": null,
+          "geographic_coverage": "United States",
+          "temporal_coverage": "2022-01 to 2024-12",
+          "original_schema": "BLS v2 Results.series[].data[]",
+          "normalization_schema": "monthly-observation-v1",
+          "attribution": "U.S. Bureau of Labor Statistics",
+          "known_limitations": "Household survey estimate. BLS can revise seasonal adjustments.",
+          "source_checksum": "811390681528ce1cd8fae637ea55c5a56b5ec19690dff713cf6d50e0583a8cd3",
+          "lineage_reference": "/api/v1/datasets/cps/releases/a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+          "series_id": "LNS14000000",
+          "unit": "percent",
+          "adjustment": "Seasonally adjusted",
+          "program": "CPS",
+          "methodology_url": "https://www.bls.gov/cps/",
+          "license_url": "https://www.bls.gov/bls/linksite.htm"
+        },
+        "release": {
+          "source_id": "cps",
+          "version": "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+          "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000?startyear=2022&endyear=2024",
+          "retrieved_at": "2026-11-19T06:24:42.516740Z",
+          "source_checksum": "811390681528ce1cd8fae637ea55c5a56b5ec19690dff713cf6d50e0583a8cd3",
+          "silver_checksum": "514454ad668128bf4467d41a30736a2ddab0db28deb14d2b35c12e740a87356f",
+          "gold_checksum": "2ef614826283cc33d9a8f02bf5b74eb94f63db51050f7a8a0a454c1d34b2cc4e",
+          "transformation": "bls-monthly-v1",
+          "first_month": "2022-01",
+          "last_month": "2024-12",
+          "rows": 36,
+          "missing": 0,
+          "artifact": "series.parquet"
+        },
+        "observations": [
+          {
+            "month": "2022-01",
+            "value": 4.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-02",
+            "value": 3.9,
+            "footnotes": []
+          },
+          {
+            "month": "2022-03",
+            "value": 3.7,
+            "footnotes": []
+          },
+          {
+            "month": "2022-04",
+            "value": 3.7,
+            "footnotes": []
+          },
+          {
+            "month": "2022-05",
+            "value": 3.6,
+            "footnotes": []
+          },
+          {
+            "month": "2022-06",
+            "value": 3.6,
+            "footnotes": []
+          },
+          {
+            "month": "2022-07",
+            "value": 3.5,
+            "footnotes": []
+          },
+          {
+            "month": "2022-08",
+            "value": 3.6,
+            "footnotes": []
+          },
+          {
+            "month": "2022-09",
+            "value": 3.5,
+            "footnotes": []
+          },
+          {
+            "month": "2022-10",
+            "value": 3.6,
+            "footnotes": []
+          },
+          {
+            "month": "2022-11",
+            "value": 3.6,
+            "footnotes": []
+          },
+          {
+            "month": "2022-12",
+            "value": 3.5,
+            "footnotes": []
+          },
+          {
+            "month": "2023-01",
+            "value": 3.5,
+            "footnotes": []
+          },
+          {
+            "month": "2023-02",
+            "value": 3.6,
+            "footnotes": []
+          },
+          {
+            "month": "2023-03",
+            "value": 3.5,
+            "footnotes": []
+          },
+          {
+            "month": "2023-04",
+            "value": 3.4,
+            "footnotes": []
+          },
+          {
+            "month": "2023-05",
+            "value": 3.6,
+            "footnotes": []
+          },
+          {
+            "month": "2023-06",
+            "value": 3.6,
+            "footnotes": []
+          },
+          {
+            "month": "2023-07",
+            "value": 3.5,
+            "footnotes": []
+          },
+          {
+            "month": "2023-08",
+            "value": 3.7,
+            "footnotes": []
+          },
+          {
+            "month": "2023-09",
+            "value": 3.7,
+            "footnotes": []
+          },
+          {
+            "month": "2023-10",
+            "value": 3.9,
+            "footnotes": []
+          },
+          {
+            "month": "2023-11",
+            "value": 3.7,
+            "footnotes": []
+          },
+          {
+            "month": "2023-12",
+            "value": 3.8,
+            "footnotes": []
+          },
+          {
+            "month": "2024-01",
+            "value": 3.7,
+            "footnotes": []
+          },
+          {
+            "month": "2024-02",
+            "value": 3.9,
+            "footnotes": []
+          },
+          {
+            "month": "2024-03",
+            "value": 3.9,
+            "footnotes": []
+          },
+          {
+            "month": "2024-04",
+            "value": 3.9,
+            "footnotes": []
+          },
+          {
+            "month": "2024-05",
+            "value": 3.9,
+            "footnotes": []
+          },
+          {
+            "month": "2024-06",
+            "value": 4.1,
+            "footnotes": []
+          },
+          {
+            "month": "2024-07",
+            "value": 4.2,
+            "footnotes": []
+          },
+          {
+            "month": "2024-08",
+            "value": 4.2,
+            "footnotes": []
+          },
+          {
+            "month": "2024-09",
+            "value": 4.1,
+            "footnotes": []
+          },
+          {
+            "month": "2024-10",
+            "value": 4.1,
+            "footnotes": []
+          },
+          {
+            "month": "2024-11",
+            "value": 4.2,
+            "footnotes": []
+          },
+          {
+            "month": "2024-12",
+            "value": 4.1,
+            "footnotes": []
+          }
+        ]
+      }
+    },
+    "laus": {
+      "8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468": {
+        "inference": "published_estimate",
+        "source": {
+          "source_id": "laus",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "canonical_url": "https://data.bls.gov/timeseries/LAUCN360610000000003",
+          "dataset_name": "Unemployment rate",
+          "dataset_version": "8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+          "license": "Public domain (BLS-produced aggregate statistics)",
+          "access_method": "BLS Public Data API v2 GET",
+          "authentication_required": false,
+          "retrieval_status": "Validated",
+          "last_successful_sync": "2026-11-19T06:24:42.776127Z",
+          "last_checked_at": "2026-11-19T06:24:42.776127Z",
+          "next_scheduled_sync": null,
+          "geographic_coverage": "New York County, NY",
+          "temporal_coverage": "2022-01 to 2024-12",
+          "original_schema": "BLS v2 Results.series[].data[]",
+          "normalization_schema": "monthly-observation-v1",
+          "attribution": "U.S. Bureau of Labor Statistics",
+          "known_limitations": "Residence-based county estimate. New York County is Manhattan, one of five NYC boroughs. Seasonal variation and revisions affect comparisons.",
+          "source_checksum": "c835150b05f5ba9fce349058af4bd1de25d205e12734d06a5598bf97dfa06c2d",
+          "lineage_reference": "/api/v1/datasets/laus/releases/8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+          "series_id": "LAUCN360610000000003",
+          "unit": "percent",
+          "adjustment": "Not seasonally adjusted",
+          "program": "LAUS",
+          "methodology_url": "https://www.bls.gov/lau/",
+          "license_url": "https://www.bls.gov/bls/linksite.htm"
+        },
+        "release": {
+          "source_id": "laus",
+          "version": "8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+          "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUCN360610000000003?startyear=2022&endyear=2024",
+          "retrieved_at": "2026-11-19T06:24:42.776127Z",
+          "source_checksum": "c835150b05f5ba9fce349058af4bd1de25d205e12734d06a5598bf97dfa06c2d",
+          "silver_checksum": "2b2b5287d8f3eedad24f4f6db8d30bf3067e11f4fe67375ca3d942f77aaa99fb",
+          "gold_checksum": "e5be0fbef0fa2dac109eb2a8a0cb2c00166a34761f8b6eb0571b5359999faa48",
+          "transformation": "bls-monthly-v1",
+          "first_month": "2022-01",
+          "last_month": "2024-12",
+          "rows": 36,
+          "missing": 0,
+          "artifact": "series.parquet"
+        },
+        "observations": [
+          {
+            "month": "2022-01",
+            "value": 6.3,
+            "footnotes": []
+          },
+          {
+            "month": "2022-02",
+            "value": 5.7,
+            "footnotes": []
+          },
+          {
+            "month": "2022-03",
+            "value": 5.1,
+            "footnotes": []
+          },
+          {
+            "month": "2022-04",
+            "value": 4.7,
+            "footnotes": []
+          },
+          {
+            "month": "2022-05",
+            "value": 4.5,
+            "footnotes": []
+          },
+          {
+            "month": "2022-06",
+            "value": 4.7,
+            "footnotes": []
+          },
+          {
+            "month": "2022-07",
+            "value": 4.7,
+            "footnotes": []
+          },
+          {
+            "month": "2022-08",
+            "value": 4.4,
+            "footnotes": []
+          },
+          {
+            "month": "2022-09",
+            "value": 3.9,
+            "footnotes": []
+          },
+          {
+            "month": "2022-10",
+            "value": 4.2,
+            "footnotes": []
+          },
+          {
+            "month": "2022-11",
+            "value": 4.2,
+            "footnotes": []
+          },
+          {
+            "month": "2022-12",
+            "value": 4.2,
+            "footnotes": []
+          },
+          {
+            "month": "2023-01",
+            "value": 4.6,
+            "footnotes": []
+          },
+          {
+            "month": "2023-02",
+            "value": 4.7,
+            "footnotes": []
+          },
+          {
+            "month": "2023-03",
+            "value": 4.4,
+            "footnotes": []
+          },
+          {
+            "month": "2023-04",
+            "value": 4.1,
+            "footnotes": []
+          },
+          {
+            "month": "2023-05",
+            "value": 4.3,
+            "footnotes": []
+          },
+          {
+            "month": "2023-06",
+            "value": 4.6,
+            "footnotes": []
+          },
+          {
+            "month": "2023-07",
+            "value": 4.7,
+            "footnotes": []
+          },
+          {
+            "month": "2023-08",
+            "value": 4.9,
+            "footnotes": []
+          },
+          {
+            "month": "2023-09",
+            "value": 4.5,
+            "footnotes": []
+          },
+          {
+            "month": "2023-10",
+            "value": 4.7,
+            "footnotes": []
+          },
+          {
+            "month": "2023-11",
+            "value": 4.2,
+            "footnotes": []
+          },
+          {
+            "month": "2023-12",
+            "value": 4.2,
+            "footnotes": []
+          },
+          {
+            "month": "2024-01",
+            "value": 4.3,
+            "footnotes": []
+          },
+          {
+            "month": "2024-02",
+            "value": 4.5,
+            "footnotes": []
+          },
+          {
+            "month": "2024-03",
+            "value": 4.3,
+            "footnotes": []
+          },
+          {
+            "month": "2024-04",
+            "value": 4.2,
+            "footnotes": []
+          },
+          {
+            "month": "2024-05",
+            "value": 4.3,
+            "footnotes": []
+          },
+          {
+            "month": "2024-06",
+            "value": 4.8,
+            "footnotes": []
+          },
+          {
+            "month": "2024-07",
+            "value": 5.4,
+            "footnotes": []
+          },
+          {
+            "month": "2024-08",
+            "value": 5.2,
+            "footnotes": []
+          },
+          {
+            "month": "2024-09",
+            "value": 4.5,
+            "footnotes": []
+          },
+          {
+            "month": "2024-10",
+            "value": 4.6,
+            "footnotes": []
+          },
+          {
+            "month": "2024-11",
+            "value": 4.5,
+            "footnotes": []
+          },
+          {
+            "month": "2024-12",
+            "value": 4.2,
+            "footnotes": []
+          }
+        ]
+      }
+    },
+    "jolts": {
+      "b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d": {
+        "inference": "published_estimate",
+        "source": {
+          "source_id": "jolts",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "canonical_url": "https://data.bls.gov/timeseries/JTS000000000000000JOL",
+          "dataset_name": "Job openings",
+          "dataset_version": "b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+          "license": "Public domain (BLS-produced aggregate statistics)",
+          "access_method": "BLS Public Data API v2 GET",
+          "authentication_required": false,
+          "retrieval_status": "Validated",
+          "last_successful_sync": "2026-11-19T06:24:43.018275Z",
+          "last_checked_at": "2026-11-19T06:24:43.018275Z",
+          "next_scheduled_sync": null,
+          "geographic_coverage": "United States",
+          "temporal_coverage": "2022-01 to 2024-12",
+          "original_schema": "BLS v2 Results.series[].data[]",
+          "normalization_schema": "monthly-observation-v1",
+          "attribution": "U.S. Bureau of Labor Statistics",
+          "known_limitations": "Establishment survey estimate of openings. Openings and hires are distinct measures.",
+          "source_checksum": "d7f133d6b061c7c353d5fac57ade998bb3aa60296dd7196448c95f97fb2a9e6a",
+          "lineage_reference": "/api/v1/datasets/jolts/releases/b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+          "series_id": "JTS000000000000000JOL",
+          "unit": "thousands",
+          "adjustment": "Seasonally adjusted",
+          "program": "JOLTS",
+          "methodology_url": "https://www.bls.gov/jlt/",
+          "license_url": "https://www.bls.gov/bls/linksite.htm"
+        },
+        "release": {
+          "source_id": "jolts",
+          "version": "b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+          "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/JTS000000000000000JOL?startyear=2022&endyear=2024",
+          "retrieved_at": "2026-11-19T06:24:43.018275Z",
+          "source_checksum": "d7f133d6b061c7c353d5fac57ade998bb3aa60296dd7196448c95f97fb2a9e6a",
+          "silver_checksum": "681b7638aa915057c776a0caf2d59f0b6d8571bb5ac5960e0e3486ee570c7d0e",
+          "gold_checksum": "f1e7704a27c72eca9c427b4f470237548ad0a6f20e7419c7c6e5a5cd11c45bd3",
+          "transformation": "bls-monthly-v1",
+          "first_month": "2022-01",
+          "last_month": "2024-12",
+          "rows": 36,
+          "missing": 0,
+          "artifact": "series.parquet"
+        },
+        "observations": [
+          {
+            "month": "2022-01",
+            "value": 11210.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-02",
+            "value": 11698.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-03",
+            "value": 12301.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-04",
+            "value": 11861.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-05",
+            "value": 11535.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-06",
+            "value": 11283.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-07",
+            "value": 11576.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-08",
+            "value": 10092.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-09",
+            "value": 10800.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-10",
+            "value": 10447.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-11",
+            "value": 10632.0,
+            "footnotes": []
+          },
+          {
+            "month": "2022-12",
+            "value": 10902.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-01",
+            "value": 10318.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-02",
+            "value": 9857.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-03",
+            "value": 9655.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-04",
+            "value": 9966.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-05",
+            "value": 9368.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-06",
+            "value": 9180.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-07",
+            "value": 8657.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-08",
+            "value": 9254.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-09",
+            "value": 9259.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-10",
+            "value": 8580.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-11",
+            "value": 8602.0,
+            "footnotes": []
+          },
+          {
+            "month": "2023-12",
+            "value": 8520.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-01",
+            "value": 8378.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-02",
+            "value": 8440.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-03",
+            "value": 8206.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-04",
+            "value": 7529.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-05",
+            "value": 7782.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-06",
+            "value": 7416.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-07",
+            "value": 7426.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-08",
+            "value": 7520.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-09",
+            "value": 6943.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-10",
+            "value": 7379.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-11",
+            "value": 7566.0,
+            "footnotes": []
+          },
+          {
+            "month": "2024-12",
+            "value": 7295.0,
+            "footnotes": []
+          }
+        ]
+      }
+    }
+  },
   "series": {
     "cps": {
       "inference": "published_estimate",
@@ -634,22 +1326,22 @@
         "publisher": "U.S. Bureau of Labor Statistics",
         "canonical_url": "https://data.bls.gov/timeseries/LNS14000000",
         "dataset_name": "Unemployment rate",
-        "dataset_version": "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+        "dataset_version": "994df200563e381d476423d3843a939833f20eea0c710f2394aa01b19c770b78",
         "license": "Public domain (BLS-produced aggregate statistics)",
         "access_method": "BLS Public Data API v2 GET",
         "authentication_required": false,
         "retrieval_status": "Validated",
-        "last_successful_sync": "2026-11-19T06:24:42.516740Z",
-        "last_checked_at": "2026-11-19T06:24:42.516740Z",
+        "last_successful_sync": "2026-11-19T07:50:44.256227Z",
+        "last_checked_at": "2026-11-19T07:50:44.256227Z",
         "next_scheduled_sync": null,
         "geographic_coverage": "United States",
-        "temporal_coverage": "2022-01 to 2024-12",
+        "temporal_coverage": "2022-01 to 2026-10",
         "original_schema": "BLS v2 Results.series[].data[]",
         "normalization_schema": "monthly-observation-v1",
         "attribution": "U.S. Bureau of Labor Statistics",
         "known_limitations": "Household survey estimate. BLS can revise seasonal adjustments.",
-        "source_checksum": "811390681528ce1cd8fae637ea55c5a56b5ec19690dff713cf6d50e0583a8cd3",
-        "lineage_reference": "/api/v1/datasets/cps/releases/a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
+        "source_checksum": "d2cfec94260f4ae18a8823e25eaa56d5959ec530d62c7368813814ef6ff4a2ed",
+        "lineage_reference": "/api/v1/datasets/cps/releases/994df200563e381d476423d3843a939833f20eea0c710f2394aa01b19c770b78",
         "series_id": "LNS14000000",
         "unit": "percent",
         "adjustment": "Seasonally adjusted",
@@ -659,17 +1351,17 @@
       },
       "release": {
         "source_id": "cps",
-        "version": "a58072605e4eaf36ecbb6386a14a9c1c18796fd638f8cdb2d76c8a1657a32f4a",
-        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000?startyear=2022&endyear=2024",
-        "retrieved_at": "2026-11-19T06:24:42.516740Z",
-        "source_checksum": "811390681528ce1cd8fae637ea55c5a56b5ec19690dff713cf6d50e0583a8cd3",
-        "silver_checksum": "514454ad668128bf4467d41a30736a2ddab0db28deb14d2b35c12e740a87356f",
-        "gold_checksum": "2ef614826283cc33d9a8f02bf5b74eb94f63db51050f7a8a0a454c1d34b2cc4e",
+        "version": "994df200563e381d476423d3843a939833f20eea0c710f2394aa01b19c770b78",
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000?startyear=2022&endyear=2026",
+        "retrieved_at": "2026-11-19T07:50:44.256227Z",
+        "source_checksum": "d2cfec94260f4ae18a8823e25eaa56d5959ec530d62c7368813814ef6ff4a2ed",
+        "silver_checksum": "2494f190bbdca68d1eedb23aaf14eb81218e3aed6a0456324c1121a7e4e293e8",
+        "gold_checksum": "080dc4aa47f35abddd92cf2023f53604f00a705c85cf0fd140bd9f759ed1381e",
         "transformation": "bls-monthly-v1",
         "first_month": "2022-01",
-        "last_month": "2024-12",
-        "rows": 36,
-        "missing": 0,
+        "last_month": "2026-10",
+        "rows": 58,
+        "missing": 1,
         "artifact": "series.parquet"
       },
       "observations": [
@@ -852,6 +1544,120 @@
           "month": "2024-12",
           "value": 4.1,
           "footnotes": []
+        },
+        {
+          "month": "2025-01",
+          "value": 4.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-02",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2025-03",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2025-04",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2025-05",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2025-06",
+          "value": 4.1,
+          "footnotes": []
+        },
+        {
+          "month": "2025-07",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2025-08",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2025-09",
+          "value": 4.4,
+          "footnotes": []
+        },
+        {
+          "month": "2025-10",
+          "value": null,
+          "footnotes": [
+            "Data unavailable due to the 2025 lapse in appropriations."
+          ]
+        },
+        {
+          "month": "2025-11",
+          "value": 4.5,
+          "footnotes": []
+        },
+        {
+          "month": "2025-12",
+          "value": 4.4,
+          "footnotes": []
+        },
+        {
+          "month": "2026-01",
+          "value": 4.3,
+          "footnotes": [
+            "January 2026 estimates were revised to incorporate updated population controls. For more information, see www.bls.gov/cps/documentation.htm#pop."
+          ]
+        },
+        {
+          "month": "2026-02",
+          "value": 4.4,
+          "footnotes": []
+        },
+        {
+          "month": "2026-03",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2026-04",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2026-05",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2026-06",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2026-07",
+          "value": 4.1,
+          "footnotes": []
+        },
+        {
+          "month": "2026-08",
+          "value": 4.1,
+          "footnotes": []
+        },
+        {
+          "month": "2026-09",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2026-10",
+          "value": 4.1,
+          "footnotes": []
         }
       ]
     },
@@ -862,22 +1668,22 @@
         "publisher": "U.S. Bureau of Labor Statistics",
         "canonical_url": "https://data.bls.gov/timeseries/LAUCN360610000000003",
         "dataset_name": "Unemployment rate",
-        "dataset_version": "8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+        "dataset_version": "c375c3dbfe8aa60360a1f0fb91526357a9946a84b41d688f044334695d0ad992",
         "license": "Public domain (BLS-produced aggregate statistics)",
         "access_method": "BLS Public Data API v2 GET",
         "authentication_required": false,
         "retrieval_status": "Validated",
-        "last_successful_sync": "2026-11-19T06:24:42.776127Z",
-        "last_checked_at": "2026-11-19T06:24:42.776127Z",
+        "last_successful_sync": "2026-11-19T07:50:44.368334Z",
+        "last_checked_at": "2026-11-19T07:50:44.368334Z",
         "next_scheduled_sync": null,
         "geographic_coverage": "New York County, NY",
-        "temporal_coverage": "2022-01 to 2024-12",
+        "temporal_coverage": "2022-01 to 2026-09",
         "original_schema": "BLS v2 Results.series[].data[]",
         "normalization_schema": "monthly-observation-v1",
         "attribution": "U.S. Bureau of Labor Statistics",
         "known_limitations": "Residence-based county estimate. New York County is Manhattan, one of five NYC boroughs. Seasonal variation and revisions affect comparisons.",
-        "source_checksum": "c835150b05f5ba9fce349058af4bd1de25d205e12734d06a5598bf97dfa06c2d",
-        "lineage_reference": "/api/v1/datasets/laus/releases/8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
+        "source_checksum": "d4a5bf7453814cf434c5c864c2002f8ec5507f30f50f82ca53591b9bd8edeeba",
+        "lineage_reference": "/api/v1/datasets/laus/releases/c375c3dbfe8aa60360a1f0fb91526357a9946a84b41d688f044334695d0ad992",
         "series_id": "LAUCN360610000000003",
         "unit": "percent",
         "adjustment": "Not seasonally adjusted",
@@ -887,17 +1693,17 @@
       },
       "release": {
         "source_id": "laus",
-        "version": "8dd0f0c25c074473bfdcf926f983539a81c0d81d7947026cd18af49c03f02468",
-        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUCN360610000000003?startyear=2022&endyear=2024",
-        "retrieved_at": "2026-11-19T06:24:42.776127Z",
-        "source_checksum": "c835150b05f5ba9fce349058af4bd1de25d205e12734d06a5598bf97dfa06c2d",
-        "silver_checksum": "2b2b5287d8f3eedad24f4f6db8d30bf3067e11f4fe67375ca3d942f77aaa99fb",
-        "gold_checksum": "e5be0fbef0fa2dac109eb2a8a0cb2c00166a34761f8b6eb0571b5359999faa48",
+        "version": "c375c3dbfe8aa60360a1f0fb91526357a9946a84b41d688f044334695d0ad992",
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUCN360610000000003?startyear=2022&endyear=2026",
+        "retrieved_at": "2026-11-19T07:50:44.368334Z",
+        "source_checksum": "d4a5bf7453814cf434c5c864c2002f8ec5507f30f50f82ca53591b9bd8edeeba",
+        "silver_checksum": "f178b8c1d6d7115dbd3f6b58d919932e7a2f540f02c6ef54c4e9dea80632a0f5",
+        "gold_checksum": "c7cb4069344820823787b43b56547b237795e1b888c4c1fa404982d30122e248",
         "transformation": "bls-monthly-v1",
         "first_month": "2022-01",
-        "last_month": "2024-12",
-        "rows": 36,
-        "missing": 0,
+        "last_month": "2026-09",
+        "rows": 57,
+        "missing": 1,
         "artifact": "series.parquet"
       },
       "observations": [
@@ -1080,6 +1886,115 @@
           "month": "2024-12",
           "value": 4.2,
           "footnotes": []
+        },
+        {
+          "month": "2025-01",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2025-02",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2025-03",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2025-04",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2025-05",
+          "value": 4.2,
+          "footnotes": []
+        },
+        {
+          "month": "2025-06",
+          "value": 4.7,
+          "footnotes": []
+        },
+        {
+          "month": "2025-07",
+          "value": 5.3,
+          "footnotes": []
+        },
+        {
+          "month": "2025-08",
+          "value": 5.4,
+          "footnotes": []
+        },
+        {
+          "month": "2025-09",
+          "value": 5.3,
+          "footnotes": []
+        },
+        {
+          "month": "2025-10",
+          "value": null,
+          "footnotes": [
+            "Data unavailable due to the 2025 lapse in appropriations."
+          ]
+        },
+        {
+          "month": "2025-11",
+          "value": 5.1,
+          "footnotes": []
+        },
+        {
+          "month": "2025-12",
+          "value": 4.8,
+          "footnotes": []
+        },
+        {
+          "month": "2026-01",
+          "value": 5.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-02",
+          "value": 5.5,
+          "footnotes": []
+        },
+        {
+          "month": "2026-03",
+          "value": 4.5,
+          "footnotes": []
+        },
+        {
+          "month": "2026-04",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2026-05",
+          "value": 4.3,
+          "footnotes": []
+        },
+        {
+          "month": "2026-06",
+          "value": 4.7,
+          "footnotes": []
+        },
+        {
+          "month": "2026-07",
+          "value": 4.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-08",
+          "value": 4.7,
+          "footnotes": []
+        },
+        {
+          "month": "2026-09",
+          "value": 4.7,
+          "footnotes": [
+            "Preliminary."
+          ]
         }
       ]
     },
@@ -1090,22 +2005,22 @@
         "publisher": "U.S. Bureau of Labor Statistics",
         "canonical_url": "https://data.bls.gov/timeseries/JTS000000000000000JOL",
         "dataset_name": "Job openings",
-        "dataset_version": "b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+        "dataset_version": "4d48e20a9d58fc473bade764a7909538e03a94355e9263a54c9992a831ec142a",
         "license": "Public domain (BLS-produced aggregate statistics)",
         "access_method": "BLS Public Data API v2 GET",
         "authentication_required": false,
         "retrieval_status": "Validated",
-        "last_successful_sync": "2026-11-19T06:24:43.018275Z",
-        "last_checked_at": "2026-11-19T06:24:43.018275Z",
+        "last_successful_sync": "2026-11-19T07:50:44.474291Z",
+        "last_checked_at": "2026-11-19T07:50:44.474291Z",
         "next_scheduled_sync": null,
         "geographic_coverage": "United States",
-        "temporal_coverage": "2022-01 to 2024-12",
+        "temporal_coverage": "2022-01 to 2026-09",
         "original_schema": "BLS v2 Results.series[].data[]",
         "normalization_schema": "monthly-observation-v1",
         "attribution": "U.S. Bureau of Labor Statistics",
         "known_limitations": "Establishment survey estimate of openings. Openings and hires are distinct measures.",
-        "source_checksum": "d7f133d6b061c7c353d5fac57ade998bb3aa60296dd7196448c95f97fb2a9e6a",
-        "lineage_reference": "/api/v1/datasets/jolts/releases/b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
+        "source_checksum": "a733a958bbd4056615925909fe034b346c0d0808d965678c031fdb8a82e13008",
+        "lineage_reference": "/api/v1/datasets/jolts/releases/4d48e20a9d58fc473bade764a7909538e03a94355e9263a54c9992a831ec142a",
         "series_id": "JTS000000000000000JOL",
         "unit": "thousands",
         "adjustment": "Seasonally adjusted",
@@ -1115,16 +2030,16 @@
       },
       "release": {
         "source_id": "jolts",
-        "version": "b4dbf876f01d7577ca8e3498e6c23c9ac51c07aa9ce9e4cefd8178ffa731665d",
-        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/JTS000000000000000JOL?startyear=2022&endyear=2024",
-        "retrieved_at": "2026-11-19T06:24:43.018275Z",
-        "source_checksum": "d7f133d6b061c7c353d5fac57ade998bb3aa60296dd7196448c95f97fb2a9e6a",
-        "silver_checksum": "681b7638aa915057c776a0caf2d59f0b6d8571bb5ac5960e0e3486ee570c7d0e",
-        "gold_checksum": "f1e7704a27c72eca9c427b4f470237548ad0a6f20e7419c7c6e5a5cd11c45bd3",
+        "version": "4d48e20a9d58fc473bade764a7909538e03a94355e9263a54c9992a831ec142a",
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/JTS000000000000000JOL?startyear=2022&endyear=2026",
+        "retrieved_at": "2026-11-19T07:50:44.474291Z",
+        "source_checksum": "a733a958bbd4056615925909fe034b346c0d0808d965678c031fdb8a82e13008",
+        "silver_checksum": "aa27d7b65932680a6b970005b5a2877b447822c5b6eab13f627e1268345e4c41",
+        "gold_checksum": "cd7ac8674f114c139075043df69a9039cae31aa79c2d6ee987c7a5253b908e75",
         "transformation": "bls-monthly-v1",
         "first_month": "2022-01",
-        "last_month": "2024-12",
-        "rows": 36,
+        "last_month": "2026-09",
+        "rows": 57,
         "missing": 0,
         "artifact": "series.parquet"
       },
@@ -1308,13 +2223,115 @@
           "month": "2024-12",
           "value": 7295.0,
           "footnotes": []
+        },
+        {
+          "month": "2025-01",
+          "value": 7431.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-02",
+          "value": 7242.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-03",
+          "value": 6952.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-04",
+          "value": 7098.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-05",
+          "value": 7310.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-06",
+          "value": 7204.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-07",
+          "value": 7089.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-08",
+          "value": 6919.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-09",
+          "value": 7169.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-10",
+          "value": 7170.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-11",
+          "value": 6846.0,
+          "footnotes": []
+        },
+        {
+          "month": "2025-12",
+          "value": 6550.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-01",
+          "value": 7240.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-02",
+          "value": 6922.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-03",
+          "value": 6887.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-04",
+          "value": 7585.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-05",
+          "value": 7537.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-06",
+          "value": 7182.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-07",
+          "value": 7335.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-08",
+          "value": 7190.0,
+          "footnotes": []
+        },
+        {
+          "month": "2026-09",
+          "value": 7523.0,
+          "footnotes": [
+            "preliminary"
+          ]
         }
       ]
     }
-  },
-  "history": {
-    "cps": {},
-    "laus": {},
-    "jolts": {}
   }
 }

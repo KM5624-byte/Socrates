@@ -1,0 +1,14 @@
+{
+  "source_id": "laus",
+  "version": "c375c3dbfe8aa60360a1f0fb91526357a9946a84b41d688f044334695d0ad992",
+  "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUCN360610000000003?startyear=2022&endyear=2026",
+  "retrieved_at": "2026-11-19T07:50:44.368334+00:00",
+  "source_checksum": "d4a5bf7453814cf434c5c864c2002f8ec5507f30f50f82ca53591b9bd8edeeba",
+  "silver_checksum": "f178b8c1d6d7115dbd3f6b58d919932e7a2f540f02c6ef54c4e9dea80632a0f5",
+  "gold_checksum": "c7cb4069344820823787b43b56547b237795e1b888c4c1fa404982d30122e248",
+  "transformation": "bls-monthly-v1",
+  "first_month": "2022-01",
+  "last_month": "2026-09",
+  "rows": 57,
+  "missing": 1
+}

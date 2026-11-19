@@ -1,0 +1,14 @@
+{
+  "source_id": "jolts",
+  "version": "4d48e20a9d58fc473bade764a7909538e03a94355e9263a54c9992a831ec142a",
+  "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/JTS000000000000000JOL?startyear=2022&endyear=2026",
+  "retrieved_at": "2026-11-19T07:50:44.474291+00:00",
+  "source_checksum": "a733a958bbd4056615925909fe034b346c0d0808d965678c031fdb8a82e13008",
+  "silver_checksum": "aa27d7b65932680a6b970005b5a2877b447822c5b6eab13f627e1268345e4c41",
+  "gold_checksum": "cd7ac8674f114c139075043df69a9039cae31aa79c2d6ee987c7a5253b908e75",
+  "transformation": "bls-monthly-v1",
+  "first_month": "2022-01",
+  "last_month": "2026-09",
+  "rows": 57,
+  "missing": 0
+}
